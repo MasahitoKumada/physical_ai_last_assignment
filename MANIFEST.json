@@ -13,8 +13,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 9371,
-      "sha256": "5a471a1b796adf980a4b0c1200c4a5d404f7d192ac6a04830db12f5fd9da0374"
+      "bytes": 9428,
+      "sha256": "adeff513bbf98b0f44252266ff009d28d8298b6e7d5af50c482998839b526128"
     },
     {
       "path": "requirements.txt",

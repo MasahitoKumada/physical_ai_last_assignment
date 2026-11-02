@@ -144,4 +144,4 @@ uv pip install -r requirements.txt
 `learning_poc.py`、`curved_poc.py`、`collision_poc.py` などは、段階ごとの検証に使ったコードです。
 現在のゲームの入口は `src/game.py play` です。
 動画・仮想環境・課題の原本PDF・個別の比較プレイ記録は、配布するコード一式に含めません。
-実装・検証・資料の作成には、生成AIの支援を受けました。
+実装・検証・資料の作成には、OpenAI Codex（使用モデル：`gpt-6.1-sol`、`gpt-6-astra`）の支援を受けました。
