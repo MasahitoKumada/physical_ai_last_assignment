@@ -1,0 +1,37 @@
+[
+  {
+    "state": "initial",
+    "x": 49,
+    "y": 146,
+    "width": 804,
+    "height": 454
+  },
+  {
+    "state": "computing",
+    "x": 49,
+    "y": 146,
+    "width": 804,
+    "height": 454
+  },
+  {
+    "state": "predicted",
+    "x": 49,
+    "y": 154,
+    "width": 804,
+    "height": 454
+  },
+  {
+    "state": "computing_10",
+    "x": 49,
+    "y": 146,
+    "width": 804,
+    "height": 454
+  },
+  {
+    "state": "predicted_10",
+    "x": 49,
+    "y": 154,
+    "width": 804,
+    "height": 454
+  }
+]

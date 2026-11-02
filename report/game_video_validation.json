@@ -1,0 +1,12 @@
+{
+  "frames_decoded": 4405,
+  "duration_seconds": 176.2,
+  "fps": 25.0,
+  "size": [
+    1280,
+    720
+  ],
+  "codec": "h264",
+  "bytes": 2563431,
+  "sha256": "bb35a17e321920cf51c3930b62b1443c50fbe556392165038cd790d1873b558e"
+}

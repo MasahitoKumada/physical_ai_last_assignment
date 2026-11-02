@@ -1,0 +1,818 @@
+{
+  "status": "passed",
+  "purpose": "Technical feasibility, not learned AI accuracy",
+  "mujoco_version": "3.17.0",
+  "motion_model": "planar circles with explicit Coulomb drag",
+  "checks": [
+    "Actuator-driven release has commanded translation and spin",
+    "Head-on, grazing, and three-stone chain contacts occur",
+    "Reference prediction preserves live physical and game state",
+    "Known-ice forecast matches the independently executed shot",
+    "Reference forecast finishes within one second",
+    "Passive stone kinetic energy stays below 105% of release energy",
+    "Reversing spin reverses the lateral curl",
+    "Sweeping increases travel distance with identical initial state and input",
+    "20 varied shots complete without invalid state, excessive lift, or timeout",
+    "Reset and replay reproduce identical results",
+    "Snapshots taken during flight reproduce final positions",
+    "Distance scores are monotonic and house boundary stones receive one point",
+    "Three-shot game with changing ice finishes, retains stones, and rejects a fourth shot",
+    "Microscopic friction changes produce less than 5 mm endpoint change in diagnostic contacts"
+  ],
+  "reference_cases": [
+    {
+      "name": "left_spin",
+      "command": {
+        "angle": 0,
+        "power": 79,
+        "spin": 1
+      },
+      "reference_forecast_seconds": 0.1119664169382304,
+      "same_ice_position_errors_m": [
+        0.0
+      ],
+      "actual": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.8843878345565224,
+              0.046529329114603835,
+              0.026
+            ],
+            "score": 68
+          }
+        ],
+        "score": 68,
+        "collisions": [],
+        "max_height": 0.026,
+        "max_speed": 1.4932466351744638,
+        "max_passive_energy": 0.22319819035639663,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6136805508406968,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            1.4471839032911968,
+            1.4932466351744638,
+            -1.658943961477542e-20,
+            0.0
+          ],
+          "command_speed": 1.581818181818182,
+          "command_omega": 1.5,
+          "time": 0.44400000000000034,
+          "stone_kinetic_energy": 0.22349166495222236
+        },
+        "simulation_time": 4.165999999999763
+      }
+    },
+    {
+      "name": "right_spin",
+      "command": {
+        "angle": 0,
+        "power": 79,
+        "spin": -1
+      },
+      "reference_forecast_seconds": 0.09881158301141113,
+      "same_ice_position_errors_m": [
+        0.0
+      ],
+      "actual": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.8843878345565224,
+              -0.04652932911460361,
+              0.026
+            ],
+            "score": 68
+          }
+        ],
+        "score": 68,
+        "collisions": [],
+        "max_height": 0.026,
+        "max_speed": 1.4932466351744638,
+        "max_passive_energy": 0.22319819035639663,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6136805508406968,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            -1.4471839032911968,
+            1.4932466351744638,
+            1.658943961477542e-20,
+            0.0
+          ],
+          "command_speed": 1.581818181818182,
+          "command_omega": -1.5,
+          "time": 0.44400000000000034,
+          "stone_kinetic_energy": 0.22349166495222236
+        },
+        "simulation_time": 4.165999999999763
+      }
+    },
+    {
+      "name": "head_on",
+      "command": {
+        "angle": 0,
+        "power": 82,
+        "spin": 0
+      },
+      "reference_forecast_seconds": 0.0817082499852404,
+      "same_ice_position_errors_m": [
+        0.0,
+        0.0
+      ],
+      "actual": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              1.9497496195022896,
+              0.0,
+              0.026
+            ],
+            "score": 0
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.606387153039786,
+              0.0,
+              0.026
+            ],
+            "score": 1
+          }
+        ],
+        "score": 1,
+        "collisions": [
+          [
+            0,
+            1
+          ]
+        ],
+        "max_height": 0.026,
+        "max_speed": 1.5349038665426926,
+        "max_passive_energy": 0.23529193605025514,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6132112246739354,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0,
+            1.5349038665426926,
+            0.0,
+            0.0
+          ],
+          "command_speed": 1.6272727272727274,
+          "command_omega": 0.0,
+          "time": 0.43200000000000033,
+          "stone_kinetic_energy": 0.23559298795277084
+        },
+        "simulation_time": 3.347999999999853
+      }
+    },
+    {
+      "name": "grazing",
+      "command": {
+        "angle": 0,
+        "power": 82,
+        "spin": 0
+      },
+      "reference_forecast_seconds": 0.1293808330083266,
+      "same_ice_position_errors_m": [
+        0.0,
+        0.0
+      ],
+      "actual": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.4017059994174335,
+              -0.2455716580992684,
+              0.026
+            ],
+            "score": 0
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.2002309972740757,
+              0.282455258820129,
+              0.026
+            ],
+            "score": 0
+          }
+        ],
+        "score": 0,
+        "collisions": [
+          [
+            0,
+            1
+          ]
+        ],
+        "max_height": 0.026,
+        "max_speed": 1.5349038665426926,
+        "max_passive_energy": 0.23529193605025514,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6132112246739354,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0,
+            1.5349038665426926,
+            0.0,
+            0.0
+          ],
+          "command_speed": 1.6272727272727274,
+          "command_omega": 0.0,
+          "time": 0.43200000000000033,
+          "stone_kinetic_energy": 0.23559298795277084
+        },
+        "simulation_time": 5.171999999999652
+      }
+    },
+    {
+      "name": "chain",
+      "command": {
+        "angle": 0,
+        "power": 88,
+        "spin": 0
+      },
+      "reference_forecast_seconds": 0.11895045905839652,
+      "same_ice_position_errors_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual": {
+        "phase": "RESULT",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              1.949888348977908,
+              0.0,
+              0.026
+            ],
+            "score": 0
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.200791578065824,
+              0.0,
+              0.026
+            ],
+            "score": 0
+          },
+          {
+            "id": 2,
+            "alive": true,
+            "position": [
+              2.6526545241542014,
+              0.0,
+              0.026
+            ],
+            "score": 10
+          }
+        ],
+        "score": 10,
+        "collisions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "max_height": 0.026,
+        "max_speed": 1.6099754131785775,
+        "max_passive_energy": 0.2588863021639875,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6092326201682043,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0,
+            1.6099754131785775,
+            0.0,
+            0.0
+          ],
+          "command_speed": 1.7181818181818183,
+          "command_omega": 0.0,
+          "time": 0.4080000000000003,
+          "stone_kinetic_energy": 0.25920208310395315
+        },
+        "simulation_time": 3.0899999999998813
+      }
+    }
+  ],
+  "sweep_comparison": {
+    "without_sweep": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8843878345565224,
+            0.046529329114603835,
+            0.026
+          ],
+          "score": 68
+        }
+      ],
+      "score": 68,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.4932466351744638,
+      "max_passive_energy": 0.22319819035639663,
+      "planar": true,
+      "release": {
+        "position": [
+          0.6136805508406968,
+          0.0,
+          0.026
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          1.4471839032911968,
+          1.4932466351744638,
+          -1.658943961477542e-20,
+          0.0
+        ],
+        "command_speed": 1.581818181818182,
+        "command_omega": 1.5,
+        "time": 0.44400000000000034,
+        "stone_kinetic_energy": 0.22349166495222236
+      },
+      "simulation_time": 4.165999999999763
+    },
+    "with_sweep": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            3.452663902080366,
+            0.050885797786413,
+            0.026
+          ],
+          "score": 1
+        }
+      ],
+      "score": 1,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.4932466351744638,
+      "max_passive_energy": 0.2232568697715213,
+      "planar": true,
+      "release": {
+        "position": [
+          0.6136805508406968,
+          0.0,
+          0.026
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          1.4471839032911968,
+          1.4932466351744638,
+          -1.658943961477542e-20,
+          0.0
+        ],
+        "command_speed": 1.581818181818182,
+        "command_omega": 1.5,
+        "time": 0.44400000000000034,
+        "stone_kinetic_energy": 0.22349166495222236
+      },
+      "simulation_time": 4.997999999999672
+    }
+  },
+  "stability_trials": [
+    {
+      "command": {
+        "angle": 2.7129691972803673,
+        "power": 46.79675093210379,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -5.941023369703039,
+        "power": 89.28243611583694,
+        "spin": 0
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -7.744183554551526,
+        "power": 54.54573134647845,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -11.459067993051569,
+        "power": 81.04712776763392,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -2.5660821654630306,
+        "power": 80.6016765242101,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -3.6613241000441414,
+        "power": 58.580732168328055,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 9.315002711266406,
+        "power": 94.31502238342564,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -5.08350283479467,
+        "power": 90.93049068903011,
+        "spin": 0
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 0.5832584711842035,
+        "power": 72.29344709795357,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -6.741076883392463,
+        "power": 80.08397830248956,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -3.53354067194038,
+        "power": 77.65851767077086,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 3.795038815999739,
+        "power": 42.116142291037654,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 8.056186535877455,
+        "power": 77.7917531790113,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 11.154813541601335,
+        "power": 92.08403109177706,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -5.47524438137645,
+        "power": 69.9224831755317,
+        "spin": -1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 6.268801597137049,
+        "power": 68.59391352664379,
+        "spin": 0
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 3.5932912369670467,
+        "power": 69.54579733322204,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -7.521021433738897,
+        "power": 78.83925529498103,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": 3.6186849623645276,
+        "power": 69.01320084652947,
+        "spin": 0
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    },
+    {
+      "command": {
+        "angle": -1.3725589849953908,
+        "power": 65.32742029151747,
+        "spin": 1
+      },
+      "max_height": 0.026,
+      "phase": "READY"
+    }
+  ],
+  "three_shot_game": [
+    {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8851394959906984,
+            0.0,
+            0.026
+          ],
+          "score": 70
+        }
+      ],
+      "score": 70,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.4932466351553733,
+      "max_passive_energy": 0.22268567258656702,
+      "planar": true,
+      "release": {
+        "position": [
+          0.613660624577625,
+          0.0,
+          0.026
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0,
+          1.4932466351553733,
+          0.0,
+          0.0
+        ],
+        "command_speed": 1.581818181818182,
+        "command_omega": 0.0,
+        "time": 0.44400000000000034,
+        "stone_kinetic_energy": 0.22297855134028444
+      },
+      "simulation_time": 3.865999999999796
+    },
+    {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.9882216380200535,
+            -0.03436498615718664,
+            0.026
+          ],
+          "score": 91
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7785471561601756,
+            0.06398916904025409,
+            0.026
+          ],
+          "score": 40
+        }
+      ],
+      "score": 131,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.478824257392495,
+      "max_passive_energy": 0.21892864085321553,
+      "planar": true,
+      "release": {
+        "position": [
+          0.6134111032767067,
+          0.011203576547327287,
+          0.026
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          -1.4465150413129604,
+          1.4779019300706882,
+          0.05222134952104493,
+          0.0
+        ],
+        "command_speed": 1.5666666666666669,
+        "command_omega": -1.5,
+        "time": 4.313999999999747,
+        "stone_kinetic_energy": 0.21920475783760887
+      },
+      "simulation_time": 9.119999999999715
+    },
+    {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.99991051741097,
+            -0.025823380243765737,
+            0.026
+          ],
+          "score": 93
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.828230894816746,
+            0.12736059313711978,
+            0.026
+          ],
+          "score": 44
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.950737823318139,
+            -0.1845146943517726,
+            0.026
+          ],
+          "score": 50
+        }
+      ],
+      "score": 187,
+      "collisions": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.507439004185938,
+      "max_passive_energy": 0.2274838769286759,
+      "planar": true,
+      "release": {
+        "position": [
+          0.6134572859356611,
+          -0.01121022111505443,
+          0.026
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          1.4474238332143476,
+          1.5064984045492569,
+          -0.053243858158815334,
+          0.0
+        ],
+        "command_speed": 1.5969696969696972,
+        "command_omega": 1.5,
+        "time": 9.559999999999862,
+        "stone_kinetic_energy": 0.2277505188935837
+      },
+      "simulation_time": 16.50800000000173
+    }
+  ],
+  "friction_sensitivity": [
+    {
+      "case": "head_on",
+      "assumed_friction": 0.0475,
+      "true_friction": 0.05,
+      "errors_m": [
+        0.0069281073807285765,
+        0.07411128809425094
+      ]
+    },
+    {
+      "case": "grazing",
+      "assumed_friction": 0.0475,
+      "true_friction": 0.05,
+      "errors_m": [
+        0.05402650707725025,
+        0.07013864910499601
+      ]
+    },
+    {
+      "case": "chain",
+      "assumed_friction": 0.0475,
+      "true_friction": 0.05,
+      "errors_m": [
+        0.0005419297617095253,
+        0.016549235960337416,
+        0.032168869327299454
+      ]
+    }
+  ],
+  "elapsed_seconds": 5.51209795800969
+}

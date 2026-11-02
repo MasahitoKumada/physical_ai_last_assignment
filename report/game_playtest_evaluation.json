@@ -1,0 +1,267 @@
+{
+  "source": "human_play",
+  "date": "2026-11-01",
+  "participant_count": 1,
+  "practice_games_excluded": 2,
+  "main_games": 4,
+  "completed": true,
+  "study_sha256": "6aaa126a1162223e7a549112c0da4416622502f111b46b0e66a6afb0f17ddfcf",
+  "tested_code_sha256": {
+    "game.py": "8b0d9ee25de3f79b7764800cc9a60c0df9fa39733b199ccefe734eb7bcb54205",
+    "physics.py": "6d10107660b49a378b577d8908881908434c40676aeef222f92e9e468ad4570e",
+    "predictor.py": "c078d2231e70aec6dc2668b00ebb4a38bb23c163415f7802652f100098eec1a3",
+    "ui.py": "5d29a8262f9af038ba93c1b6e47b421589cb0ed38c72ede73b538032776bbd5a",
+    "playtest.py": "9a0f59ac3966fee80c534406bbd64f96dcd25955ae4040995bb6ae02e98804c7",
+    "game_scene.xml": "abfbfd7916ab4ce1e42b42b6f7dc4b1a785b1b9902574de82523d73432b0be84"
+  },
+  "model_sha256": "6e089f279cc9119edcd6a1f10c1150c42246dff327f80f5fd5c726d33ea58dc9",
+  "all_six_replays_matched": true,
+  "interrupted_attempts": 0,
+  "ui_errors": [],
+  "pairs": [
+    {
+      "pair": "A",
+      "order": [
+        "あり",
+        "なし"
+      ],
+      "score_without": 56,
+      "score_with": 140,
+      "score_difference": 84,
+      "enjoyment_without": 3,
+      "enjoyment_with": 3,
+      "rating_differences": {
+        "enjoyment": 0,
+        "agency": 0,
+        "clarity": 0
+      },
+      "decision_seconds_difference": 0.7773645828710869
+    },
+    {
+      "pair": "B",
+      "order": [
+        "なし",
+        "あり"
+      ],
+      "score_without": 0,
+      "score_with": 28,
+      "score_difference": 28,
+      "enjoyment_without": 3,
+      "enjoyment_with": 3,
+      "rating_differences": {
+        "enjoyment": 0,
+        "agency": 0,
+        "clarity": 0
+      },
+      "decision_seconds_difference": -1.2794381660642102
+    }
+  ],
+  "games": [
+    {
+      "game": 1,
+      "pair": "A",
+      "forecast": true,
+      "config": {
+        "seed": 20261102,
+        "initial_friction": 0.0444320657325649,
+        "drift": -0.04,
+        "curl": 0.027
+      },
+      "score": 140,
+      "ratings": {
+        "enjoyment": 3,
+        "agency": 3,
+        "clarity": 3
+      },
+      "decision_seconds": [
+        6.153769584023394,
+        2.4903044999809936,
+        0.8992261249804869
+      ],
+      "commands": [
+        {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        },
+        {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        },
+        {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        }
+      ],
+      "sweep_event_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "game": 2,
+      "pair": "A",
+      "forecast": false,
+      "config": {
+        "seed": 20261102,
+        "initial_friction": 0.0444320657325649,
+        "drift": -0.04,
+        "curl": 0.027
+      },
+      "score": 56,
+      "ratings": {
+        "enjoyment": 3,
+        "agency": 3,
+        "clarity": 3
+      },
+      "decision_seconds": [
+        3.8332912920741364,
+        2.8764354169834405,
+        2.0562089170562103
+      ],
+      "commands": [
+        {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        },
+        {
+          "angle": 9.210526315789473,
+          "power": 100.0,
+          "spin": 0
+        },
+        {
+          "angle": 9.210526315789473,
+          "power": 100.0,
+          "spin": 0
+        }
+      ],
+      "sweep_event_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "game": 3,
+      "pair": "B",
+      "forecast": false,
+      "config": {
+        "seed": 20261103,
+        "initial_friction": 0.05593571295817897,
+        "drift": 0.04,
+        "curl": 0.035
+      },
+      "score": 0,
+      "ratings": {
+        "enjoyment": 3,
+        "agency": 3,
+        "clarity": 3
+      },
+      "decision_seconds": [
+        5.448871833039448,
+        3.290576124913059,
+        3.457225083024241
+      ],
+      "commands": [
+        {
+          "angle": 3.2456140350877183,
+          "power": 67.57894736842105,
+          "spin": 0
+        },
+        {
+          "angle": 3.2456140350877183,
+          "power": 67.57894736842105,
+          "spin": 0
+        },
+        {
+          "angle": 8.157894736842104,
+          "power": 67.57894736842105,
+          "spin": 0
+        }
+      ],
+      "sweep_event_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "game": 4,
+      "pair": "B",
+      "forecast": true,
+      "config": {
+        "seed": 20261103,
+        "initial_friction": 0.05593571295817897,
+        "drift": 0.04,
+        "curl": 0.035
+      },
+      "score": 28,
+      "ratings": {
+        "enjoyment": 3,
+        "agency": 3,
+        "clarity": 3
+      },
+      "decision_seconds": [
+        3.296193999936804,
+        5.066513124969788,
+        2.5545277500059456
+      ],
+      "commands": [
+        {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        },
+        {
+          "angle": 6.0144927536231885,
+          "power": 86.6086956521739,
+          "spin": 0
+        },
+        {
+          "angle": 6.0144927536231885,
+          "power": 86.6086956521739,
+          "spin": 0
+        }
+      ],
+      "sweep_event_counts": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "mean_score_without": 28.0,
+  "mean_score_with": 84.0,
+  "mean_score_difference": 56.0,
+  "mean_rating_differences": {
+    "enjoyment": 0.0,
+    "agency": 0.0,
+    "clarity": 0.0
+  },
+  "findings": [
+    "Both paired scores were higher with forecasts in these four games; this does not establish causality.",
+    "All three ratings were 3/5 for every main game; no enjoyment or agency improvement was observed.",
+    "Participant reported whole-view movement during shots; observed before the subsequent UI layout fix."
+  ],
+  "limitations": [
+    "One-person exploratory comparison; not population evidence or a causal estimate",
+    "Two ice pairs, opposite display order; learning and carryover can remain",
+    "Forecast presence is visible; expectation bias is possible",
+    "Practice excluded; no best-run selection; interruptions retained",
+    "Times include reading and thinking; pauses are not removed",
+    "All main throws had zero spin and no sweeping; practice included these controls.",
+    "Screen layout fix was made after this study; no new human ratings have been collected for the fix."
+  ],
+  "layout_issue": {
+    "reported": "Whole view moved during shots; also noticed when sweeping in practice.",
+    "reproduced_vertical_shift_px": 8,
+    "fix": "Anchor the rink image and reserve stable message regions.",
+    "automated_states_checked": 36,
+    "post_fix_image_movement_px": 0,
+    "human_recheck_pending": true
+  }
+}

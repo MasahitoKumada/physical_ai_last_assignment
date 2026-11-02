@@ -1,0 +1,449 @@
+{
+  "passed": true,
+  "states_checked": 36,
+  "distinct_image_rectangles": [
+    [
+      10,
+      0,
+      800,
+      450
+    ]
+  ],
+  "hidden_widgets": [],
+  "clipped_widgets": [],
+  "rows": [
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": false,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "0 / 3 投   0 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "予測を準備しています。",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "別の世界で先読み計算中…",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "初投は標準的な氷を仮定します。",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：9回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    },
+    {
+      "prediction_enabled": true,
+      "score": "3 / 3 投   140 点",
+      "prediction": "AI予測：更新済み\nここからスイープしない場合",
+      "ai": "石の動きから氷の推定を更新：10回",
+      "image": [
+        10,
+        0,
+        800,
+        450
+      ]
+    }
+  ],
+  "ui_sha256": "f73053dfe6cbf68c130b5df5bc3a7f93c2635a8336711d5c3e13aab1a09df054"
+}

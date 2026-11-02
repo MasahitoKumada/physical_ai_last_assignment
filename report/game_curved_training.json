@@ -1,0 +1,37 @@
+{
+  "training_shots": 189,
+  "validation_shots": 72,
+  "candidates": [
+    {
+      "penalty": 1e-06,
+      "friction_mae": 2.750823550475552e-08,
+      "observable_curl_mae": 3.574408914126991e-06,
+      "score": 0.00012006390498772489
+    },
+    {
+      "penalty": 0.01,
+      "friction_mae": 4.761874511784478e-07,
+      "observable_curl_mae": 3.6250433536651424e-06,
+      "score": 0.00013670769349478635
+    },
+    {
+      "penalty": 1.0,
+      "friction_mae": 4.7368443106039116e-05,
+      "observable_curl_mae": 7.859711897949782e-05,
+      "score": 0.004198852069517898
+    },
+    {
+      "penalty": 10.0,
+      "friction_mae": 0.00045226132758868055,
+      "observable_curl_mae": 0.0007351605445190496,
+      "score": 0.03958072907025767
+    }
+  ],
+  "selected": {
+    "penalty": 1e-06,
+    "friction_mae": 2.750823550475552e-08,
+    "observable_curl_mae": 3.574408914126991e-06,
+    "score": 0.00012006390498772489
+  },
+  "model_sha256": "6e089f279cc9119edcd6a1f10c1150c42246dff327f80f5fd5c726d33ea58dc9"
+}

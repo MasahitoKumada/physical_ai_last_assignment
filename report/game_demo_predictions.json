@@ -1,0 +1,1665 @@
+[
+  {
+    "time": 0.44600000000000034,
+    "estimate": {
+      "friction": 0.049999999999999996,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8850188616304173,
+            0.0,
+            0.026
+          ],
+          "score": 70
+        }
+      ],
+      "score": 70,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.491245395137169,
+      "max_passive_energy": 0.2223812828517811,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.865999999999796,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 0.44600000000000034
+    }
+  },
+  {
+    "time": 0.8460000000000006,
+    "estimate": {
+      "friction": 0.049999999999999996,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.9049263471463114,
+            0.0,
+            0.026
+          ],
+          "score": 75
+        }
+      ],
+      "score": 75,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.3027050431371783,
+      "max_passive_energy": 0.16970404294150376,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.881999999999794,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 0.8460000000000006
+    }
+  },
+  {
+    "time": 1.2460000000000009,
+    "estimate": {
+      "friction": 0.05070001061291082,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.881373844411855,
+            0.0,
+            0.026
+          ],
+          "score": 69
+        }
+      ],
+      "score": 69,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 1.1035404609289703,
+      "max_passive_energy": 0.12178015489073242,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.845999999999798,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 1.2460000000000009
+    }
+  },
+  {
+    "time": 1.6460000000000012,
+    "estimate": {
+      "friction": 0.051450771995256245,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.859196747595617,
+            0.0,
+            0.026
+          ],
+          "score": 63
+        }
+      ],
+      "score": 63,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.8994777309906589,
+      "max_passive_energy": 0.08090601885481041,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.809999999999802,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 1.6460000000000012
+    }
+  },
+  {
+    "time": 2.047999999999996,
+    "estimate": {
+      "friction": 0.05176796867929915,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8528372702176266,
+            0.0,
+            0.026
+          ],
+          "score": 62
+        }
+      ],
+      "score": 62,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.6944032675917168,
+      "max_passive_energy": 0.04821958980420535,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.7959999999998035,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 2.047999999999996
+    }
+  },
+  {
+    "time": 2.4499999999999518,
+    "estimate": {
+      "friction": 0.05190198427830958,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8511577715577636,
+            0.0,
+            0.026
+          ],
+          "score": 61
+        }
+      ],
+      "score": 61,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.4893323982056631,
+      "max_passive_energy": 0.023944619593370565,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.791999999999804,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 2.4499999999999518
+    }
+  },
+  {
+    "time": 2.8519999999999075,
+    "estimate": {
+      "friction": 0.05195860586889334,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8507761383505104,
+            0.0,
+            0.026
+          ],
+          "score": 61
+        }
+      ],
+      "score": 61,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.2842630472900547,
+      "max_passive_energy": 0.008080548005462788,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.791999999999804,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 2.8519999999999075
+    }
+  },
+  {
+    "time": 3.2539999999998632,
+    "estimate": {
+      "friction": 0.05197310442769436,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.850715944602418,
+            0.0,
+            0.026
+          ],
+          "score": 61
+        }
+      ],
+      "score": 61,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.07919452282832991,
+      "max_passive_energy": 0.0006271772446006867,
+      "planar": true,
+      "release": null,
+      "simulation_time": 3.789999999999804,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 3.2539999999998632
+    }
+  },
+  {
+    "time": 4.239999999999755,
+    "estimate": {
+      "friction": 0.05197310442769436,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.86963901170317,
+            -0.006004818821701452,
+            0.026
+          ],
+          "score": 66
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7232209997278702,
+            0.04827848260641021,
+            0.026
+          ],
+          "score": 27
+        }
+      ],
+      "score": 93,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.476835318794798,
+      "max_passive_energy": 0.21861568810371745,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.097999999999374,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 4.239999999999755
+    }
+  },
+  {
+    "time": 4.641999999999711,
+    "estimate": {
+      "friction": 0.05197310442769436,
+      "curl": 0.03,
+      "curl_observable": false,
+      "curl_weight": 0.0,
+      "curl_standard_error": null
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8828503058328403,
+            -0.010289842551047368,
+            0.026
+          ],
+          "score": 69
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7269509688894975,
+            0.051153184152142206,
+            0.026
+          ],
+          "score": 28
+        }
+      ],
+      "score": 97,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.2820206660599853,
+      "max_passive_energy": 0.16475774490331582,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.261999999999428,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 4.641999999999711
+    }
+  },
+  {
+    "time": 5.0439999999996665,
+    "estimate": {
+      "friction": 0.05107251270199399,
+      "curl": 0.030000215325520843,
+      "curl_observable": true,
+      "curl_weight": 0.9999999997845427,
+      "curl_standard_error": 1.7977374322708588e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.8990902985108553,
+            -0.015486721828265715,
+            0.026
+          ],
+          "score": 73
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.734641818739305,
+            0.05514997468218619,
+            0.026
+          ],
+          "score": 29
+        }
+      ],
+      "score": 102,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.0872236873857175,
+      "max_passive_energy": 0.11850786584524575,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.531999999999519,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 5.0439999999996665
+    }
+  },
+  {
+    "time": 5.445999999999622,
+    "estimate": {
+      "friction": 0.050106627736986445,
+      "curl": 0.030002230287988665,
+      "curl_observable": true,
+      "curl_weight": 0.9999999995679246,
+      "curl_standard_error": 2.5458063381759645e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.9122676752900283,
+            -0.019890243573855937,
+            0.026
+          ],
+          "score": 77
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.738592283063633,
+            0.057648624734226495,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 107,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 0.89242799006859,
+      "max_passive_energy": 0.0798610491146342,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.675999999999567,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 5.445999999999622
+    }
+  },
+  {
+    "time": 5.847999999999578,
+    "estimate": {
+      "friction": 0.04969854153515006,
+      "curl": 0.03000614914511318,
+      "curl_observable": true,
+      "curl_weight": 0.9999999990468369,
+      "curl_standard_error": 3.781196652410101e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.920903322409787,
+            -0.022849369477104364,
+            0.026
+          ],
+          "score": 79
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7379382975257545,
+            0.05842031805160719,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 109,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 0.6976213427668055,
+      "max_passive_energy": 0.048815434107175086,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.721999999999582,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 5.847999999999578
+    }
+  },
+  {
+    "time": 6.249999999999534,
+    "estimate": {
+      "friction": 0.04952612631758073,
+      "curl": 0.0300124932659543,
+      "curl_observable": true,
+      "curl_weight": 0.9999999975344261,
+      "curl_standard_error": 6.081414863434337e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.9193999447822083,
+            -0.022291350421183243,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.739247776269176,
+            0.05857056962832363,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 0.50281005693771,
+      "max_passive_energy": 0.025372939311167696,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.737999999999587,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 6.249999999999534
+    }
+  },
+  {
+    "time": 6.651999999999489,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.9203058186420656,
+            -0.022604337547927678,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.739068479489654,
+            0.058624512070990065,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.19711317297511105,
+      "max_passive_energy": 0.004594211154440436,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.741999999999589,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 6.651999999999489
+    }
+  },
+  {
+    "time": 7.053999999999445,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.920369676489949,
+            -0.022625408717634077,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.0022983695965349223,
+      "max_passive_energy": 8.621796648354809e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.741999999999589,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 7.053999999999445
+    }
+  },
+  {
+    "time": 7.455999999999401,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 4.818164563185962e-20,
+      "max_passive_energy": 4.294925418612696e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.74399999999959,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 7.455999999999401
+    }
+  },
+  {
+    "time": 7.857999999999357,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 4.818164563185962e-20,
+      "max_passive_energy": 1.5522440553829747e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.74399999999959,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 7.857999999999357
+    }
+  },
+  {
+    "time": 8.257999999999427,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "READY",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364,
+            0.026
+          ],
+          "score": 30
+        }
+      ],
+      "score": 108,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 4.818164563185962e-20,
+      "max_passive_energy": 1.7932992257927056e-06,
+      "planar": true,
+      "release": null,
+      "simulation_time": 8.74399999999959,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 8.257999999999427
+    }
+  },
+  {
+    "time": 9.185999999999737,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.782778171536275,
+            0.1053096344779294,
+            0.026
+          ],
+          "score": 37
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.807761355422017,
+            -0.12205165740612145,
+            0.026
+          ],
+          "score": 41
+        }
+      ],
+      "score": 156,
+      "collisions": [
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.5055499534515255,
+      "max_passive_energy": 0.22718020237909523,
+      "planar": true,
+      "release": null,
+      "simulation_time": 14.64400000000156,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 9.185999999999737
+    }
+  },
+  {
+    "time": 9.58599999999987,
+    "estimate": {
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true,
+      "curl_weight": 0.9999999956232983,
+      "curl_standard_error": 8.102501189337442e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7882321018881386,
+            0.1119925768145773,
+            0.026
+          ],
+          "score": 38
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.8239279715034127,
+            -0.13184560956189895,
+            0.026
+          ],
+          "score": 43
+        }
+      ],
+      "score": 159,
+      "collisions": [
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.3219069246929347,
+      "max_passive_energy": 0.17515048323398077,
+      "planar": true,
+      "release": null,
+      "simulation_time": 14.774000000001603,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 9.58599999999987
+    }
+  },
+  {
+    "time": 9.986000000000004,
+    "estimate": {
+      "friction": 0.048543281157852884,
+      "curl": 0.0300108735587318,
+      "curl_observable": true,
+      "curl_weight": 0.9999999998408852,
+      "curl_standard_error": 1.544902037278839e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.920704602562174,
+            -0.022241280939411023,
+            0.026
+          ],
+          "score": 79
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.7925789707939956,
+            0.11732619916218523,
+            0.026
+          ],
+          "score": 38
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.8533277609119585,
+            -0.14559520079916455,
+            0.026
+          ],
+          "score": 46
+        }
+      ],
+      "score": 163,
+      "collisions": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 1.1382823170990934,
+      "max_passive_energy": 0.12988205983996948,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.112000000001716,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 9.986000000000004
+    }
+  },
+  {
+    "time": 10.386000000000138,
+    "estimate": {
+      "friction": 0.047536527929090126,
+      "curl": 0.03000574694635436,
+      "curl_observable": true,
+      "curl_weight": 0.9999999996966799,
+      "curl_standard_error": 2.1330268786728526e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.920839629106786,
+            -0.022056312543135004,
+            0.026
+          ],
+          "score": 79
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.797526763528352,
+            0.12310748491559131,
+            0.026
+          ],
+          "score": 38
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.870999009950588,
+            -0.15616153499879237,
+            0.026
+          ],
+          "score": 47
+        }
+      ],
+      "score": 164,
+      "collisions": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 0.954659045126564,
+      "max_passive_energy": 0.09136962980908352,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.314000000001784,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 10.386000000000138
+    }
+  },
+  {
+    "time": 10.786000000000271,
+    "estimate": {
+      "friction": 0.04711117484904169,
+      "curl": 0.03000611849472149,
+      "curl_observable": true,
+      "curl_weight": 0.9999999993757152,
+      "curl_standard_error": 3.0601099641858556e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8021149960693976,
+            0.12843649358068587,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.878122079025701,
+            -0.15772810661730663,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [
+        [
+          1,
+          2
+        ]
+      ],
+      "max_height": 0.026,
+      "max_speed": 0.7710243611787034,
+      "max_passive_energy": 0.0596110755998609,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.228000000001755,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 10.786000000000271
+    }
+  },
+  {
+    "time": 11.186000000000405,
+    "estimate": {
+      "friction": 0.04693146419009667,
+      "curl": 0.0300099943634943,
+      "curl_observable": true,
+      "curl_weight": 0.9999999985499994,
+      "curl_standard_error": 4.663690547035921e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.80375271891001,
+            0.1303414623540644,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.8787146000954364,
+            -0.15945154687630847,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.43622629829750875,
+      "max_passive_energy": 0.026342600102993434,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.268000000001768,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 11.186000000000405
+    }
+  },
+  {
+    "time": 11.586000000000539,
+    "estimate": {
+      "friction": 0.04693146419009667,
+      "curl": 0.0300099943634943,
+      "curl_observable": true,
+      "curl_weight": 0.9999999985499994,
+      "curl_standard_error": 4.663690547035921e-07
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038755807321056,
+            0.13048139384763768,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.8790649483580024,
+            -0.15961564867173061,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.2525835987487661,
+      "max_passive_energy": 0.007463435153078016,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.268000000001768,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 11.586000000000539
+    }
+  },
+  {
+    "time": 11.986000000000672,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879235465230453,
+            -0.159690420264627,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 0.06894191384791352,
+      "max_passive_energy": 0.000880272283116567,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27200000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 11.986000000000672
+    }
+  },
+  {
+    "time": 12.386000000000806,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 0.0002875251492357771,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27400000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 12.386000000000806
+    }
+  },
+  {
+    "time": 12.78600000000094,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 0.00019435863778880376,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27400000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 12.78600000000094
+    }
+  },
+  {
+    "time": 13.186000000001073,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 0.00012547400027432414,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27400000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 13.186000000001073
+    }
+  },
+  {
+    "time": 13.586000000001206,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 7.626810521653608e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27600000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 13.586000000001206
+    }
+  },
+  {
+    "time": 13.98600000000134,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 3.930448818668468e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27600000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 13.98600000000134
+    }
+  },
+  {
+    "time": 14.386000000001474,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 1.4481808123079114e-05,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.27600000000177,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 14.386000000001474
+    }
+  },
+  {
+    "time": 14.786000000001607,
+    "estimate": {
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true,
+      "curl_weight": 0.9999999723882348,
+      "curl_standard_error": 2.03513264846766e-06
+    },
+    "prediction": {
+      "phase": "RESULT",
+      "stones": [
+        {
+          "id": 0,
+          "alive": true,
+          "position": [
+            2.92036969479399,
+            -0.02262541484067393,
+            0.026
+          ],
+          "score": 78
+        },
+        {
+          "id": 1,
+          "alive": true,
+          "position": [
+            2.8038863830966676,
+            0.13049414773625,
+            0.026
+          ],
+          "score": 39
+        },
+        {
+          "id": 2,
+          "alive": true,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338,
+            0.026
+          ],
+          "score": 48
+        }
+      ],
+      "score": 165,
+      "collisions": [],
+      "max_height": 0.026,
+      "max_speed": 8.619498628640142e-20,
+      "max_passive_energy": 1.8000650257205485e-06,
+      "planar": true,
+      "release": null,
+      "simulation_time": 15.278000000001771,
+      "assumption": "no sweep from the observed state onward",
+      "observed_time": 14.786000000001607
+    }
+  }
+]

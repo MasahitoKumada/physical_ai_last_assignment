@@ -1,0 +1,307 @@
+{
+  "source": "game_demo_replay.json",
+  "source_sha256": "eedd405d4757877aaf37713251f3568983993902318698531463a965cb60e752",
+  "selection": "All demo throws with no subsequent sweep; first throw excluded",
+  "protocol": "Same board and command; estimates recorded before throw; actual result used only for scoring afterwards",
+  "rows": [
+    {
+      "turn": 2,
+      "observed_time": 3.789999999999804,
+      "command": {
+        "angle": 2.0,
+        "power": 78.0,
+        "spin": -1
+      },
+      "estimate_available_before_throw": {
+        "friction": 0.05197310442769436,
+        "curl": 0.03,
+        "curl_observable": false,
+        "curl_weight": 0.0,
+        "curl_standard_error": null
+      },
+      "future_sweep": false,
+      "fixed": {
+        "stones": [
+          {
+            "id": 0,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "predicted_position": [
+              2.9071774839095696,
+              -0.018169164450601905
+            ],
+            "error_m": 0.01392453214862291
+          },
+          {
+            "id": 1,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.73907677893632,
+              0.05862945525512364
+            ],
+            "predicted_position": [
+              2.7355363754495854,
+              0.05607535661320284
+            ],
+            "error_m": 0.004365532810728321
+          }
+        ],
+        "worst_stone_error_m": 0.01392453214862291,
+        "all_within_14cm_and_correct_in_out": true,
+        "contact_pairs_match": true,
+        "missed_contacts": [],
+        "extra_contacts": []
+      },
+      "learned": {
+        "stones": [
+          {
+            "id": 0,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "predicted_position": [
+              2.868460813845268,
+              -0.005607707665193029
+            ],
+            "error_m": 0.05462723019574589
+          },
+          {
+            "id": 1,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.73907677893632,
+              0.05862945525512364
+            ],
+            "predicted_position": [
+              2.7235674208158933,
+              0.04825979287665527
+            ],
+            "error_m": 0.018656636544433
+          }
+        ],
+        "worst_stone_error_m": 0.05462723019574589,
+        "all_within_14cm_and_correct_in_out": true,
+        "contact_pairs_match": true,
+        "missed_contacts": [],
+        "extra_contacts": []
+      }
+    },
+    {
+      "turn": 3,
+      "observed_time": 8.74399999999959,
+      "command": {
+        "angle": -2.0,
+        "power": 80.0,
+        "spin": 1
+      },
+      "estimate_available_before_throw": {
+        "friction": 0.049481978525424616,
+        "curl": 0.030017066053108055,
+        "curl_observable": true,
+        "curl_weight": 0.9999999956232983,
+        "curl_standard_error": 8.102501189337442e-07
+      },
+      "future_sweep": false,
+      "fixed": {
+        "stones": [
+          {
+            "id": 0,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "predicted_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "error_m": 0.0
+          },
+          {
+            "id": 1,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.8038863830966676,
+              0.13049414773625
+            ],
+            "predicted_position": [
+              2.783542022202487,
+              0.10601005198823055
+            ],
+            "error_m": 0.031833378155496535
+          },
+          {
+            "id": 2,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.879244443469269,
+              -0.15969411093309338
+            ],
+            "predicted_position": [
+              2.7902884244852757,
+              -0.11876566889566131
+            ],
+            "error_m": 0.0979199197359355
+          }
+        ],
+        "worst_stone_error_m": 0.0979199197359355,
+        "all_within_14cm_and_correct_in_out": true,
+        "contact_pairs_match": true,
+        "missed_contacts": [],
+        "extra_contacts": []
+      },
+      "learned": {
+        "stones": [
+          {
+            "id": 0,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "predicted_position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "error_m": 0.0
+          },
+          {
+            "id": 1,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.8038863830966676,
+              0.13049414773625
+            ],
+            "predicted_position": [
+              2.782027941508688,
+              0.1044718231582622
+            ],
+            "error_m": 0.033984597174267904
+          },
+          {
+            "id": 2,
+            "actual_alive": true,
+            "predicted_alive": true,
+            "actual_position": [
+              2.879244443469269,
+              -0.15969411093309338
+            ],
+            "predicted_position": [
+              2.8084417222582747,
+              -0.12145874244326871
+            ],
+            "error_m": 0.08046719042214963
+          }
+        ],
+        "worst_stone_error_m": 0.08046719042214963,
+        "all_within_14cm_and_correct_in_out": true,
+        "contact_pairs_match": true,
+        "missed_contacts": [],
+        "extra_contacts": []
+      }
+    }
+  ],
+  "second_throw_in_flight": {
+    "turn": 2,
+    "timing": "in_flight",
+    "after_release_seconds": 1.0019999999998896,
+    "observed_time": 5.239999999999645,
+    "estimate_available_at_prediction": {
+      "friction": 0.050487127918351596,
+      "curl": 0.030000983368513853,
+      "curl_observable": true,
+      "curl_weight": 0.9999999996977634,
+      "curl_standard_error": 2.1292127430470734e-07
+    },
+    "last_observation_time": 5.217999999999647,
+    "future_sweep": false,
+    "fixed": {
+      "stones": [
+        {
+          "id": 0,
+          "actual_alive": true,
+          "predicted_alive": true,
+          "actual_position": [
+            2.92036969479399,
+            -0.02262541484067393
+          ],
+          "predicted_position": [
+            2.911539206679324,
+            -0.01959306574075592
+          ],
+          "error_m": 0.009336630088368372
+        },
+        {
+          "id": 1,
+          "actual_alive": true,
+          "predicted_alive": true,
+          "actual_position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "predicted_position": [
+            2.7386535471272957,
+            0.05753430353163136
+          ],
+          "error_m": 0.0011740879275583464
+        }
+      ],
+      "worst_stone_error_m": 0.009336630088368372,
+      "all_within_14cm_and_correct_in_out": true,
+      "contact_pairs_match": true,
+      "missed_contacts": [],
+      "extra_contacts": []
+    },
+    "learned": {
+      "stones": [
+        {
+          "id": 0,
+          "actual_alive": true,
+          "predicted_alive": true,
+          "actual_position": [
+            2.92036969479399,
+            -0.02262541484067393
+          ],
+          "predicted_position": [
+            2.9122928449989045,
+            -0.0200010011991969
+          ],
+          "error_m": 0.008492529044633379
+        },
+        {
+          "id": 1,
+          "actual_alive": true,
+          "predicted_alive": true,
+          "actual_position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "predicted_position": [
+            2.7353156367306926,
+            0.05683467504973949
+          ],
+          "error_m": 0.004167424465613285
+        }
+      ],
+      "worst_stone_error_m": 0.008492529044633379,
+      "all_within_14cm_and_correct_in_out": true,
+      "contact_pairs_match": true,
+      "missed_contacts": [],
+      "extra_contacts": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# ローカル環境・認証情報
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Pythonの生成物
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 動画・撮影素材
+video/*
+!video/.gitkeep
+
+# OSの生成物
+.DS_Store
+
+# ローカルに保持する課題の配布資料とコードの配布用ZIP
+docs/最終課題*.pdf
+report/game_source_bundle.zip
+
+# 個人の比較プレイ記録（公開用の要約は別途確認する）
+report/playtests/
+report/playtest_smoke/
+
+# 提出作業用のコピーと資料確認画像
+submission/
+report/submission_review/

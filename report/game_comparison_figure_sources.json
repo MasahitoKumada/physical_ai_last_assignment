@@ -1,0 +1,14 @@
+{
+  "source": "game_method_comparison.json",
+  "source_sha256": "d9c3aab380663b9d80f56d524b2ac64d5004607705a117fb22748465b86dd23e",
+  "example": {
+    "id": "head_on_00_0",
+    "noise": "clean",
+    "selection": "First head-on case in the existing ordered test set, not selected by error"
+  },
+  "failure": {
+    "id": "grazing_01_0",
+    "noise": "larger_noise",
+    "selection": "Post-hoc maximum learned-method endpoint error across the 96 trials"
+  }
+}

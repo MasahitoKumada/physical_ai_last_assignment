@@ -1,0 +1,6091 @@
+{
+  "schema_version": 1,
+  "config": {
+    "seed": 20261101,
+    "initial_friction": 0.052,
+    "drift": -0.05,
+    "curl": 0.03
+  },
+  "adaptive": true,
+  "model_sha256": "6e089f279cc9119edcd6a1f10c1150c42246dff327f80f5fd5c726d33ea58dc9",
+  "sweep_event_time_convention": "timestamp at end of the integration step that applied the control",
+  "history": [
+    {
+      "command": {
+        "angle": 0.0,
+        "power": 79.0,
+        "spin": 0
+      },
+      "start_estimate": {
+        "friction": 0.049999999999999996,
+        "curl": 0.03,
+        "curl_observable": false,
+        "curl_weight": 0.0,
+        "curl_standard_error": null
+      },
+      "board_before": {
+        "time": 0.0,
+        "phase": "READY",
+        "stones": [],
+        "robot_position": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "robot_velocity": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "current": null,
+        "command": null,
+        "start_time": 0.0,
+        "release_time": null,
+        "settle_time": 0.0
+      },
+      "observations": [
+        {
+          "time": 0.5440000000000004,
+          "position": [
+            0.7603824883464723,
+            0.0
+          ],
+          "velocity": [
+            1.442234635137174,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 0.5840000000000004,
+          "position": [
+            0.8176433729519594,
+            0.0
+          ],
+          "velocity": [
+            1.421829835137176,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 0.6240000000000004,
+          "position": [
+            0.8740880655574466,
+            0.0
+          ],
+          "velocity": [
+            1.4014250351371782,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 0.6640000000000005,
+          "position": [
+            0.9297165661629334,
+            0.0
+          ],
+          "velocity": [
+            1.3810202351371803,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 0.7040000000000005,
+          "position": [
+            0.9845349962084209,
+            0.0
+          ],
+          "velocity": [
+            1.3616356751371816,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": true,
+          "sweep_seconds": 0.01
+        },
+        {
+          "time": 0.7440000000000005,
+          "position": [
+            1.0386576225739077,
+            0.0
+          ],
+          "velocity": [
+            1.3453118351371807,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": true,
+          "sweep_seconds": 0.05000000000000003
+        },
+        {
+          "time": 0.7840000000000006,
+          "position": [
+            1.0921272953393952,
+            0.0
+          ],
+          "velocity": [
+            1.3289879951371797,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": true,
+          "sweep_seconds": 0.09000000000000007
+        },
+        {
+          "time": 0.8240000000000006,
+          "position": [
+            1.1449440145048824,
+            0.0
+          ],
+          "velocity": [
+            1.3126641551371787,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": true,
+          "sweep_seconds": 0.1300000000000001
+        },
+        {
+          "time": 0.8640000000000007,
+          "position": [
+            1.197107780070369,
+            0.0
+          ],
+          "velocity": [
+            1.2963403151371777,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": true,
+          "sweep_seconds": 0.17000000000000012
+        },
+        {
+          "time": 0.9040000000000007,
+          "position": [
+            1.2486124705958566,
+            0.0
+          ],
+          "velocity": [
+            1.2789962351371775,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 0.9440000000000007,
+          "position": [
+            1.2993438192013436,
+            0.0
+          ],
+          "velocity": [
+            1.2585914351371796,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 0.9840000000000008,
+          "position": [
+            1.3492589758068312,
+            0.0
+          ],
+          "velocity": [
+            1.2381866351371817,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.0240000000000007,
+          "position": [
+            1.398357940412318,
+            0.0
+          ],
+          "velocity": [
+            1.2177818351371839,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.0640000000000007,
+          "position": [
+            1.4466407130178056,
+            0.0
+          ],
+          "velocity": [
+            1.197377035137186,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.1040000000000008,
+          "position": [
+            1.4941072936232933,
+            0.0
+          ],
+          "velocity": [
+            1.176972235137188,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.1440000000000008,
+          "position": [
+            1.5407576822287807,
+            0.0
+          ],
+          "velocity": [
+            1.1565674351371902,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.1840000000000008,
+          "position": [
+            1.5865918788342683,
+            0.0
+          ],
+          "velocity": [
+            1.1361626351371923,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.2240000000000009,
+          "position": [
+            1.631609883439756,
+            0.0
+          ],
+          "velocity": [
+            1.1157578351371944,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.264000000000001,
+          "position": [
+            1.675811696045244,
+            0.0
+          ],
+          "velocity": [
+            1.0953530351371965,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.304000000000001,
+          "position": [
+            1.7191973166507317,
+            0.0
+          ],
+          "velocity": [
+            1.0749482351371986,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.344000000000001,
+          "position": [
+            1.76176674525622,
+            0.0
+          ],
+          "velocity": [
+            1.0545434351372007,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.384000000000001,
+          "position": [
+            1.8035199818617076,
+            0.0
+          ],
+          "velocity": [
+            1.0341386351372028,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.424000000000001,
+          "position": [
+            1.8444570264671962,
+            0.0
+          ],
+          "velocity": [
+            1.013733835137205,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.464000000000001,
+          "position": [
+            1.8845778790726846,
+            0.0
+          ],
+          "velocity": [
+            0.9933290351372063,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.5040000000000011,
+          "position": [
+            1.9238825396781727,
+            0.0
+          ],
+          "velocity": [
+            0.9729242351372062,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.5440000000000011,
+          "position": [
+            1.9623710082836614,
+            0.0
+          ],
+          "velocity": [
+            0.952519435137206,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.5840000000000012,
+          "position": [
+            2.0000432848891494,
+            0.0
+          ],
+          "velocity": [
+            0.9321146351372059,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.6240000000000012,
+          "position": [
+            2.036899369494638,
+            0.0
+          ],
+          "velocity": [
+            0.9117098351372058,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.6640000000000013,
+          "position": [
+            2.072939262100126,
+            0.0
+          ],
+          "velocity": [
+            0.8913050351372057,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.7040000000000013,
+          "position": [
+            2.1081629627056144,
+            0.0
+          ],
+          "velocity": [
+            0.8709002351372056,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.7440000000000013,
+          "position": [
+            2.1425704713111027,
+            0.0
+          ],
+          "velocity": [
+            0.8504954351372055,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.7840000000000014,
+          "position": [
+            2.1761617879165907,
+            0.0
+          ],
+          "velocity": [
+            0.8300906351372054,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.8240000000000014,
+          "position": [
+            2.2089369125220792,
+            0.0
+          ],
+          "velocity": [
+            0.8096858351372053,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.8640000000000014,
+          "position": [
+            2.240895845127567,
+            0.0
+          ],
+          "velocity": [
+            0.7892810351372052,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.9040000000000015,
+          "position": [
+            2.2720385857330556,
+            0.0
+          ],
+          "velocity": [
+            0.768876235137205,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.9440000000000015,
+          "position": [
+            2.3023651343385434,
+            0.0
+          ],
+          "velocity": [
+            0.7484714351372049,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 1.9840000000000015,
+          "position": [
+            2.331875490944032,
+            0.0
+          ],
+          "velocity": [
+            0.7280666351372048,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.0239999999999987,
+          "position": [
+            2.36056965554952,
+            0.0
+          ],
+          "velocity": [
+            0.7076618351372047,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.0639999999999943,
+          "position": [
+            2.3884476281550078,
+            0.0
+          ],
+          "velocity": [
+            0.6872570351372046,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.10399999999999,
+          "position": [
+            2.4155094087604962,
+            0.0
+          ],
+          "velocity": [
+            0.6668522351372045,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.1439999999999855,
+          "position": [
+            2.441754997365984,
+            0.0
+          ],
+          "velocity": [
+            0.6464474351372044,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.183999999999981,
+          "position": [
+            2.4671843939714724,
+            0.0
+          ],
+          "velocity": [
+            0.6260426351372043,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.2239999999999767,
+          "position": [
+            2.4917975985769605,
+            0.0
+          ],
+          "velocity": [
+            0.6056378351372042,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.2639999999999723,
+          "position": [
+            2.5155946111824488,
+            0.0
+          ],
+          "velocity": [
+            0.585233035137204,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.303999999999968,
+          "position": [
+            2.538575431787937,
+            0.0
+          ],
+          "velocity": [
+            0.5648282351372039,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.3439999999999634,
+          "position": [
+            2.5607400603934254,
+            0.0
+          ],
+          "velocity": [
+            0.5444234351372038,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.383999999999959,
+          "position": [
+            2.5820884969989137,
+            0.0
+          ],
+          "velocity": [
+            0.5240186351372037,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.4239999999999546,
+          "position": [
+            2.602620741604402,
+            0.0
+          ],
+          "velocity": [
+            0.5036138351372036,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.4639999999999502,
+          "position": [
+            2.62233679420989,
+            0.0
+          ],
+          "velocity": [
+            0.4832090351372035,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.503999999999946,
+          "position": [
+            2.641236654815378,
+            0.0
+          ],
+          "velocity": [
+            0.46280423513720337,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.5439999999999414,
+          "position": [
+            2.659320323420866,
+            0.0
+          ],
+          "velocity": [
+            0.44239943513720326,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.583999999999937,
+          "position": [
+            2.6765878000263545,
+            0.0
+          ],
+          "velocity": [
+            0.42199463513720314,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.6239999999999326,
+          "position": [
+            2.6930390846318426,
+            0.0
+          ],
+          "velocity": [
+            0.40158983513720303,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.663999999999928,
+          "position": [
+            2.708674177237331,
+            0.0
+          ],
+          "velocity": [
+            0.3811850351372029,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.703999999999924,
+          "position": [
+            2.723493077842819,
+            0.0
+          ],
+          "velocity": [
+            0.3607802351372028,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.7439999999999194,
+          "position": [
+            2.737495786448307,
+            0.0
+          ],
+          "velocity": [
+            0.3403754351372027,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.783999999999915,
+          "position": [
+            2.750682303053795,
+            0.0
+          ],
+          "velocity": [
+            0.3199706351372026,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.8239999999999106,
+          "position": [
+            2.763052627659283,
+            0.0
+          ],
+          "velocity": [
+            0.2995658351372025,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.863999999999906,
+          "position": [
+            2.774606760264771,
+            0.0
+          ],
+          "velocity": [
+            0.27916103513720236,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.9039999999999018,
+          "position": [
+            2.785344700870259,
+            0.0
+          ],
+          "velocity": [
+            0.25875623513720225,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.9439999999998974,
+          "position": [
+            2.795266449475747,
+            0.0
+          ],
+          "velocity": [
+            0.23835143513720214,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 2.983999999999893,
+          "position": [
+            2.804372006081235,
+            0.0
+          ],
+          "velocity": [
+            0.21794663513720203,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.0239999999998886,
+          "position": [
+            2.812661370686723,
+            0.0
+          ],
+          "velocity": [
+            0.19754183513720192,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.063999999999884,
+          "position": [
+            2.820134543292211,
+            0.0
+          ],
+          "velocity": [
+            0.1771370351372018,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.1039999999998797,
+          "position": [
+            2.8267915238976995,
+            0.0
+          ],
+          "velocity": [
+            0.1567322351372017,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.1439999999998753,
+          "position": [
+            2.8326323125031876,
+            0.0
+          ],
+          "velocity": [
+            0.13632743513720158,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.183999999999871,
+          "position": [
+            2.837656909108676,
+            0.0
+          ],
+          "velocity": [
+            0.11592263513720147,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.2239999999998665,
+          "position": [
+            2.841865313714164,
+            0.0
+          ],
+          "velocity": [
+            0.09551783513720136,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.263999999999862,
+          "position": [
+            2.845257526319652,
+            0.0
+          ],
+          "velocity": [
+            0.07511303513720125,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.3039999999998577,
+          "position": [
+            2.84783354692514,
+            0.0
+          ],
+          "velocity": [
+            0.05470823513720119,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.3439999999998533,
+          "position": [
+            2.849593375530628,
+            0.0
+          ],
+          "velocity": [
+            0.034303435137201216,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.383999999999849,
+          "position": [
+            2.850537012136116,
+            0.0
+          ],
+          "velocity": [
+            0.01389863513720124,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.4239999999998445,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.46399999999984,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.5039999999998357,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.5439999999998313,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.583999999999827,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.6239999999998225,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.663999999999818,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.7039999999998137,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.7439999999998093,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        },
+        {
+          "time": 3.783999999999805,
+          "position": [
+            2.8507126929696835,
+            0.0
+          ],
+          "velocity": [
+            -1.4940510919827863e-19,
+            0.0
+          ],
+          "angular_velocity": 0.0,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.20000000000000015
+        }
+      ],
+      "sweep_events": [
+        {
+          "time": 0.6960000000000005,
+          "active": true
+        },
+        {
+          "time": 0.8960000000000007,
+          "active": false
+        }
+      ],
+      "result": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.8507126929696835,
+              0.0,
+              0.026
+            ],
+            "score": 61
+          }
+        ],
+        "score": 61,
+        "collisions": [],
+        "max_height": 0.026,
+        "max_speed": 1.4932466351371687,
+        "max_passive_energy": 0.22267396143440701,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6136594368327553,
+            0.0,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0,
+            1.4932466351371687,
+            0.0,
+            0.0
+          ],
+          "command_speed": 1.581818181818182,
+          "command_omega": 0.0,
+          "time": 0.44400000000000034,
+          "stone_kinetic_energy": 0.22297855133484767
+        },
+        "simulation_time": 3.789999999999804
+      },
+      "end_estimate": {
+        "friction": 0.05197310442769436,
+        "curl": 0.03,
+        "curl_observable": false,
+        "curl_weight": 0.0,
+        "curl_standard_error": null
+      },
+      "update_count": 10
+    },
+    {
+      "command": {
+        "angle": 2.0,
+        "power": 78.0,
+        "spin": -1
+      },
+      "start_estimate": {
+        "friction": 0.05197310442769436,
+        "curl": 0.03,
+        "curl_observable": false,
+        "curl_weight": 0.0,
+        "curl_standard_error": null
+      },
+      "board_before": {
+        "time": 3.789999999999804,
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.8507126929696835,
+              0.0
+            ],
+            "velocity": [
+              -1.4940510919827863e-19,
+              0.0
+            ],
+            "yaw": 0.0,
+            "angular_velocity": 0.0
+          }
+        ],
+        "robot_position": [
+          7.951942199320375e-73,
+          0.0,
+          -0.00015941249999999995,
+          0.0
+        ],
+        "robot_velocity": [
+          -1.2494513776074634e-71,
+          0.0,
+          -4.286592802041178e-18,
+          0.0
+        ],
+        "current": 0,
+        "command": {
+          "angle": 0.0,
+          "power": 79.0,
+          "spin": 0
+        },
+        "start_time": 0.0,
+        "release_time": 0.44400000000000034,
+        "settle_time": 0.4000000000000003
+      },
+      "observations": [
+        {
+          "time": 4.337999999999744,
+          "position": [
+            0.7587346796569459,
+            0.01621207651301182
+          ],
+          "velocity": [
+            1.429555552908621,
+            0.04805151385903814
+          ],
+          "angular_velocity": -1.4049773323831585,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.37799999999974,
+          "position": [
+            0.8155107484705046,
+            0.018099717608190957
+          ],
+          "velocity": [
+            1.4102147125600921,
+            0.04641541148779779
+          ],
+          "angular_velocity": -1.3883619952403028,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.4179999999997355,
+          "position": [
+            0.8715131562457774,
+            0.01992230364734393
+          ],
+          "velocity": [
+            1.3908725666296564,
+            0.04479787511868441
+          ],
+          "angular_velocity": -1.3717466580974471,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.457999999999731,
+          "position": [
+            0.926741850807413,
+            0.02168058265524886
+          ],
+          "velocity": [
+            1.3715291174646336,
+            0.043199161913920515
+          ],
+          "angular_velocity": -1.3551313209545914,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.497999999999727,
+          "position": [
+            0.9811967800827375,
+            0.023375313042827806
+          ],
+          "velocity": [
+            1.3521843678337546,
+            0.04161953379013221
+          ],
+          "angular_velocity": -1.3385159838117358,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.537999999999722,
+          "position": [
+            1.0348778921190305,
+            0.025007263798511037
+          ],
+          "velocity": [
+            1.332838320947331,
+            0.04005925747506223
+          ],
+          "angular_velocity": -1.32190064666888,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.577999999999718,
+          "position": [
+            1.0877851351016234,
+            0.02657721468184704
+          ],
+          "velocity": [
+            1.3134909804781,
+            0.03851860456243186
+          ],
+          "angular_velocity": -1.3052853095260244,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.6179999999997134,
+          "position": [
+            1.139918457372851,
+            0.028085956419257485
+          ],
+          "velocity": [
+            1.2941423505827514,
+            0.036997851564787805
+          ],
+          "angular_velocity": -1.2886699723831687,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.657999999999709,
+          "position": [
+            1.1912778074518662,
+            0.02953429090185944
+          ],
+          "velocity": [
+            1.2747924359241416,
+            0.035497279964168627
+          ],
+          "angular_velocity": -1.272054635240313,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.697999999999705,
+          "position": [
+            1.2418631340553707,
+            0.03092303138526642
+          ],
+          "velocity": [
+            1.2554412416942047,
+            0.03401717626042467
+          ],
+          "angular_velocity": -1.2554392980974574,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.7379999999997,
+          "position": [
+            1.2916743861192734,
+            0.03225300269127862
+          ],
+          "velocity": [
+            1.2360887736375636,
+            0.03255783201702583
+          ],
+          "angular_velocity": -1.2388239609546017,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.777999999999696,
+          "position": [
+            1.3407115128212994,
+            0.03352504141133483
+          ],
+          "velocity": [
+            1.2167350380758395,
+            0.031119543904194146
+          ],
+          "angular_velocity": -1.222208623811746,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.817999999999691,
+          "position": [
+            1.3889744636045958,
+            0.03473999611164258
+          ],
+          "velocity": [
+            1.1973800419326681,
+            0.029702613739200977
+          ],
+          "angular_velocity": -1.2055932866688903,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.857999999999687,
+          "position": [
+            1.4364631882023553,
+            0.03589872753985368
+          ],
+          "velocity": [
+            1.178023792759423,
+            0.028307348523674607
+          ],
+          "angular_velocity": -1.1889779495260346,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.897999999999683,
+          "position": [
+            1.4831776366634704,
+            0.037002108833164016
+          ],
+          "velocity": [
+            1.1586662987616358,
+            0.026934060477771478
+          ],
+          "angular_velocity": -1.172362612383179,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.937999999999678,
+          "position": [
+            1.5291177593792713,
+            0.03805102572771846
+          ],
+          "velocity": [
+            1.1393075688261223,
+            0.025583067071074387
+          ],
+          "angular_velocity": -1.1557472752403233,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 4.977999999999674,
+          "position": [
+            1.5742835071113586,
+            0.039046376769172664
+          ],
+          "velocity": [
+            1.119947612548804,
+            0.024254691050093792
+          ],
+          "angular_velocity": -1.1391319380974676,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.017999999999669,
+          "position": [
+            1.6186748310205625,
+            0.039989073524290486
+          ],
+          "velocity": [
+            1.1005864402632173,
+            0.02294926046226433
+          ],
+          "angular_velocity": -1.122516600954612,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.057999999999665,
+          "position": [
+            1.662291682697063,
+            0.04088004079341889
+          ],
+          "velocity": [
+            1.0812240630697108,
+            0.021667108676348277
+          ],
+          "angular_velocity": -1.1059012638117562,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.097999999999661,
+          "position": [
+            1.70513401419168,
+            0.041720216823704526
+          ],
+          "velocity": [
+            1.0618604928653088,
+            0.020408574399181575
+          ],
+          "angular_velocity": -1.0892859266689006,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.137999999999656,
+          "position": [
+            1.7472017780483848,
+            0.04251055352290534
+          ],
+          "velocity": [
+            1.0424957423742438,
+            0.019174001688726107
+          ],
+          "angular_velocity": -1.0726705895260449,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.177999999999652,
+          "position": [
+            1.7884949273380406,
+            0.04325201667364009
+          ],
+          "velocity": [
+            1.0231298251791372,
+            0.01796373996342595
+          ],
+          "angular_velocity": -1.0560552523831892,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.217999999999647,
+          "position": [
+            1.8290134156934004,
+            0.04394558614794564
+          ],
+          "velocity": [
+            1.0037627557528155,
+            0.016778144007904904
+          ],
+          "angular_velocity": -1.0394399152403335,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.257999999999643,
+          "position": [
+            1.8687571973453978,
+            0.04459225612197537
+          ],
+          "velocity": [
+            0.9843945494907481,
+            0.015617573975089236
+          ],
+          "angular_velocity": -1.0228245780974778,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.2979999999996386,
+          "position": [
+            1.9077262271607451,
+            0.04519303529071372
+          ],
+          "velocity": [
+            0.9650252227440939,
+            0.01448239538489406
+          ],
+          "angular_velocity": -1.0062092409546222,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.337999999999634,
+          "position": [
+            1.9459204606808602,
+            0.045748947082577374
+          ],
+          "velocity": [
+            0.9456547928533325,
+            0.013372979119675096
+          ],
+          "angular_velocity": -0.989593903811765,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.37799999999963,
+          "position": [
+            1.9833398541621667,
+            0.04626102987375802
+          ],
+          "velocity": [
+            0.9262832781824706,
+            0.012289701416721175
+          ],
+          "angular_velocity": -0.9729785666689071,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.417999999999625,
+          "position": [
+            2.0199843646177484,
+            0.04673033720221831
+          ],
+          "velocity": [
+            0.9069106981538011,
+            0.011232943858148
+          ],
+          "angular_velocity": -0.9563632295260492,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.457999999999621,
+          "position": [
+            2.055853949860431,
+            0.04715793798123391
+          ],
+          "velocity": [
+            0.887537073283203,
+            0.010203093358652302
+          ],
+          "angular_velocity": -0.9397478923831913,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.4979999999996165,
+          "position": [
+            2.0909485685472746,
+            0.047544916712409346
+          ],
+          "velocity": [
+            0.8681624252159628,
+            0.009200542151699602
+          ],
+          "angular_velocity": -0.9231325552403334,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.537999999999612,
+          "position": [
+            2.125268180225507,
+            0.04789237369812449
+          ],
+          "velocity": [
+            0.8487867767631087,
+            0.008225687774850327
+          ],
+          "angular_velocity": -0.9065172180974755,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.577999999999608,
+          "position": [
+            2.1588127453799295,
+            0.04820142525338644
+          ],
+          "velocity": [
+            0.829410151938246,
+            0.007278933055081483
+          ],
+          "angular_velocity": -0.8899018809546176,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.617999999999603,
+          "position": [
+            2.1915822254818007,
+            0.048473203917113405
+          ],
+          "velocity": [
+            0.8100325759948886,
+            0.006360686095137058
+          ],
+          "angular_velocity": -0.8732865438117597,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.657999999999599,
+          "position": [
+            2.2235765830392236,
+            0.048708858662920296
+          ],
+          "velocity": [
+            0.7906540754642898,
+            0.005471360262144192
+          ],
+          "angular_velocity": -0.8566712066689018,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.6979999999995945,
+          "position": [
+            2.2547957816490642,
+            0.04890955510951489
+          ],
+          "velocity": [
+            0.7712746781937783,
+            0.004611374179968619
+          ],
+          "angular_velocity": -0.8400558695260439,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.73799999999959,
+          "position": [
+            2.2852397860504023,
+            0.04907647573090301
+          ],
+          "velocity": [
+            0.75189441338562,
+            0.0037811517270573552
+          ],
+          "angular_velocity": -0.823440532383186,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.777999999999586,
+          "position": [
+            2.314908562179559,
+            0.04921082006665323
+          ],
+          "velocity": [
+            0.732513311636438,
+            0.0029811220418363513
+          ],
+          "angular_velocity": -0.8068251952403281,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.817999999999581,
+          "position": [
+            2.343802077226707,
+            0.049313804932584304
+          ],
+          "velocity": [
+            0.7131314049772342,
+            0.002211719538103993
+          ],
+          "angular_velocity": -0.7902098580974702,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.857999999999577,
+          "position": [
+            2.3719202996941,
+            0.049386664632324884
+          ],
+          "velocity": [
+            0.6937487269140827,
+            0.0014733839332983026
+          ],
+          "angular_velocity": -0.7735945209546123,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.8979999999995725,
+          "position": [
+            2.399263199455944,
+            0.04943065117033285
+          ],
+          "velocity": [
+            0.6743653124695831,
+            0.0007665602930291617
+          ],
+          "angular_velocity": -0.7569791838117544,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.937999999999568,
+          "position": [
+            2.4258307478199397,
+            0.04944703446710941
+          ],
+          "velocity": [
+            0.6549811982251919,
+            9.169909587239115e-05
+          ],
+          "angular_velocity": -0.7403638466688965,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 5.977999999999564,
+          "position": [
+            2.451622917590548,
+            0.04943710257750933
+          ],
+          "velocity": [
+            0.6355964223645933,
+            -0.0005507436768602617
+          ],
+          "angular_velocity": -0.7237485095260386,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.017999999999559,
+          "position": [
+            2.476639683134011,
+            0.049402161913268294
+          ],
+          "velocity": [
+            0.6162110247183009,
+            -0.0011603064208079179
+          ],
+          "angular_velocity": -0.7071331723831807,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.057999999999555,
+          "position": [
+            2.500881020445186,
+            0.049343537471093324
+          ],
+          "velocity": [
+            0.5968250468097506,
+            -0.0017365217511167534
+          ],
+          "angular_velocity": -0.6905178352403228,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.0979999999995504,
+          "position": [
+            2.5243469072162603,
+            0.04926257306796922
+          ],
+          "velocity": [
+            0.5774385319032019,
+            -0.002278916300052207
+          ],
+          "angular_velocity": -0.6739024980974649,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.137999999999546,
+          "position": [
+            2.5470373229074337,
+            0.049160631585664305
+          ],
+          "velocity": [
+            0.5580515250538483,
+            -0.0027870104603722728
+          ],
+          "angular_velocity": -0.657287160954607,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.177999999999542,
+          "position": [
+            2.5689522488196492,
+            0.04903909522683669
+          ],
+          "velocity": [
+            0.5386640731606379,
+            -0.0032603180633657344
+          ],
+          "angular_velocity": -0.6406718238117491,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.217999999999537,
+          "position": [
+            2.590091668169515,
+            0.0488993657856156
+          ],
+          "velocity": [
+            0.5192762250224323,
+            -0.0036983459782556913
+          ],
+          "angular_velocity": -0.6240564866688912,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.257999999999533,
+          "position": [
+            2.6104555661665474,
+            0.04874286493614299
+          ],
+          "velocity": [
+            0.4998880313982771,
+            -0.004100593616955006
+          ],
+          "angular_velocity": -0.6074411495260333,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.297999999999528,
+          "position": [
+            2.6300439300929366,
+            0.048571034543244185
+          ],
+          "velocity": [
+            0.4804995450727583,
+            -0.004466552324794711
+          ],
+          "angular_velocity": -0.5908258123831754,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.337999999999524,
+          "position": [
+            2.6488567493860438,
+            0.04838533700027092
+          ],
+          "velocity": [
+            0.46111082092765504,
+            -0.004795704633641155
+          ],
+          "angular_velocity": -0.5742104752403175,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.37799999999952,
+          "position": [
+            2.6668940157239325,
+            0.048187255600217416
+          ],
+          "velocity": [
+            0.4417219160213984,
+            -0.005087523348521955
+          ],
+          "angular_velocity": -0.5575951380974596,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.417999999999515,
+          "position": [
+            2.6841557231142747,
+            0.047978294947476297
+          ],
+          "velocity": [
+            0.42233288967824245,
+            -0.005341470432156037
+          ],
+          "angular_velocity": -0.5409798009546017,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.457999999999511,
+          "position": [
+            2.700641867987057,
+            0.04775998141922555
+          ],
+          "velocity": [
+            0.40294380358953813,
+            -0.005556995643168001
+          ],
+          "angular_velocity": -0.5243644638117438,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.497999999999506,
+          "position": [
+            2.7163524492916618,
+            0.04753386368741497
+          ],
+          "velocity": [
+            0.38355472193014845,
+            -0.005733534872626364
+          ],
+          "angular_velocity": -0.5077491266688859,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.537999999999502,
+          "position": [
+            2.724153940403095,
+            0.04949722885564212
+          ],
+          "velocity": [
+            0.11085948453851256,
+            0.06923982881784933
+          ],
+          "angular_velocity": -0.8008462373587474,
+          "held": false,
+          "contact": true,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.577999999999498,
+          "position": [
+            2.7282477012413575,
+            0.052043719131620314
+          ],
+          "velocity": [
+            0.09463037122583423,
+            0.058630172099583634
+          ],
+          "angular_velocity": -0.7842309002158895,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.617999999999493,
+          "position": [
+            2.7316910420689933,
+            0.054167784822035436
+          ],
+          "velocity": [
+            0.07834060770738566,
+            0.04811546136142651
+          ],
+          "angular_velocity": -0.7676155630730316,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.657999999999489,
+          "position": [
+            2.734481412604532,
+            0.05587344445265874
+          ],
+          "velocity": [
+            0.06198405185058432,
+            0.03770661882561886
+          ],
+          "angular_velocity": -0.7510002259301737,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.697999999999484,
+          "position": [
+            2.736615982977055,
+            0.057165216092884386
+          ],
+          "velocity": [
+            0.04555284567301865,
+            0.027417742035679416
+          ],
+          "angular_velocity": -0.7343848887873158,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.73799999999948,
+          "position": [
+            2.7380915587572767,
+            0.05804827535173995
+          ],
+          "velocity": [
+            0.02903656301565193,
+            0.017267722182411332
+          ],
+          "angular_velocity": -0.7177695516444579,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.7779999999994756,
+          "position": [
+            2.7389044481822307,
+            0.0585287043310041
+          ],
+          "velocity": [
+            0.012420587820278724,
+            0.007283329551611373
+          ],
+          "angular_velocity": -0.7011542145016,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.817999999999471,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6845388773587421,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.857999999999467,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6679235402158842,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.897999999999462,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6513082030730263,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.937999999999458,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6346928659301684,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 6.9779999999994535,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6180775287873105,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.017999999999449,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.6014621916444526,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.057999999999445,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.5848468545015947,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.09799999999944,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.5682315173587368,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.137999999999436,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.5516161802158789,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.1779999999994315,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.535000843073021,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.217999999999427,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.5183855059301631,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.257999999999423,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.5017701687873052,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.297999999999418,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.4851548316444483,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.337999999999414,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.4685394945015915,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.3779999999994095,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.4519241573587347,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.417999999999405,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.4353088202158779,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.457999999999401,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.4186934830730211,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.497999999999396,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.40207814593016433,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.537999999999392,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.38546280878730754,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.5779999999993874,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.36884747164445075,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.617999999999383,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.35223213450159396,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.657999999999379,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.3356167973587372,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.697999999999374,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.3190014602158804,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.73799999999937,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.3023861230730236,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.777999999999365,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.2857707859301668,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.817999999999361,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.26915544878731,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.857999999999357,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.2525401116444532,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.897999999999352,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.23592477450159596,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.937999999999348,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.21930943735873862,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 7.977999999999343,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.20269410021588127,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.017999999999347,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.18607876307302393,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.05799999999936,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.16946342593016658,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.097999999999374,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.15284808878730924,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.137999999999387,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.1362327516444519,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.1779999999994,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.11961741450159465,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.217999999999414,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.10300207735873758,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.257999999999427,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.08638674021588051,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.29799999999944,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.06977140307302344,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.337999999999454,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.053156065930166294,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.377999999999467,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.03654072878730909,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.41799999999948,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.01992539164445193,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.457999999999494,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -0.003310054501594793,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.497999999999507,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.53799999999952,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.577999999999534,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.617999999999547,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.65799999999956,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.697999999999574,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 8.737999999999587,
+          "position": [
+            2.73907677893632,
+            0.05862945525512364
+          ],
+          "velocity": [
+            2.7592791858858624e-20,
+            -3.949821278523628e-20
+          ],
+          "angular_velocity": -3.2454350676776793e-56,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        }
+      ],
+      "sweep_events": [],
+      "result": {
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.92036969479399,
+              -0.02262541484067393,
+              0.026
+            ],
+            "score": 78
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.73907677893632,
+              0.05862945525512364,
+              0.026
+            ],
+            "score": 30
+          }
+        ],
+        "score": 108,
+        "collisions": [
+          [
+            0,
+            1
+          ]
+        ],
+        "max_height": 0.026,
+        "max_speed": 1.478824257391544,
+        "max_passive_energy": 0.2189176002320955,
+        "planar": true,
+        "release": {
+          "position": [
+            0.6134100837166663,
+            0.011203540500068776,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            -1.4465156752402977,
+            1.4779019300305212,
+            0.05222135063087008,
+            0.0
+          ],
+          "command_speed": 1.5666666666666669,
+          "command_omega": -1.5,
+          "time": 4.237999999999755,
+          "stone_kinetic_energy": 0.21920475828665056
+        },
+        "simulation_time": 8.74399999999959
+      },
+      "end_estimate": {
+        "friction": 0.049481978525424616,
+        "curl": 0.030017066053108055,
+        "curl_observable": true,
+        "curl_weight": 0.9999999956232983,
+        "curl_standard_error": 8.102501189337442e-07
+      },
+      "update_count": 18
+    },
+    {
+      "command": {
+        "angle": -2.0,
+        "power": 80.0,
+        "spin": 1
+      },
+      "start_estimate": {
+        "friction": 0.049481978525424616,
+        "curl": 0.030017066053108055,
+        "curl_observable": true,
+        "curl_weight": 0.9999999956232983,
+        "curl_standard_error": 8.102501189337442e-07
+      },
+      "board_before": {
+        "time": 8.74399999999959,
+        "phase": "READY",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.92036969479399,
+              -0.02262541484067393
+            ],
+            "velocity": [
+              -1.9713698833116307e-20,
+              1.3988406144435637e-20
+            ],
+            "yaw": -0.11465081088066618,
+            "angular_velocity": -1.0836101210237828e-57
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.73907677893632,
+              0.05862945525512364
+            ],
+            "velocity": [
+              2.7592791858858624e-20,
+              -3.949821278523628e-20
+            ],
+            "yaw": -3.3240784100016403,
+            "angular_velocity": -3.2454350676776793e-56
+          }
+        ],
+        "robot_position": [
+          -2.5330362943769175e-105,
+          1.688820694124795e-147,
+          -0.00015941249999999995,
+          -7.12121896614136e-108
+        ],
+        "robot_velocity": [
+          1.5923924724371629e-103,
+          -1.688820694124794e-145,
+          -4.520871647445054e-18,
+          5.062463588344269e-106
+        ],
+        "current": 1,
+        "command": {
+          "angle": 2.0,
+          "power": 78.0,
+          "spin": -1
+        },
+        "start_time": 3.789999999999804,
+        "release_time": 4.237999999999755,
+        "settle_time": 0.4000000000000003
+      },
+      "observations": [
+        {
+          "time": 9.28399999999977,
+          "position": [
+            0.7617705764659359,
+            -0.016325243411154045
+          ],
+          "velocity": [
+            1.4607013569608873,
+            -0.04915649510011704
+          ],
+          "angular_velocity": 1.408071905937401,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.323999999999783,
+          "position": [
+            0.819813893592614,
+            -0.018257735102090944
+          ],
+          "velocity": [
+            1.442380341814873,
+            -0.04755120753157029
+          ],
+          "angular_velocity": 1.3923310602231138,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.363999999999796,
+          "position": [
+            0.8771243438161478,
+            -0.020126377348797853
+          ],
+          "velocity": [
+            1.4240580747852625,
+            -0.0459631960571358
+          ],
+          "angular_velocity": 1.3765902145088267,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.40399999999981,
+          "position": [
+            0.9337018771126973,
+            -0.02193186589287066
+          ],
+          "velocity": [
+            1.405734558381797,
+            -0.044392684991753625
+          ],
+          "angular_velocity": 1.3608493687945395,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.443999999999823,
+          "position": [
+            0.9895464435665076,
+            -0.023674905529524892
+          ],
+          "velocity": [
+            1.3874097954831415,
+            -0.04283990251513462
+          ],
+          "angular_velocity": 1.3451085230802524,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.483999999999837,
+          "position": [
+            1.0446579933850053,
+            -0.025356210263033585
+          ],
+          "velocity": [
+            1.3690837893532133,
+            -0.041305080711275984
+          ],
+          "angular_velocity": 1.3293676773659653,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.52399999999985,
+          "position": [
+            1.0990364769145575,
+            -0.026976503463685297
+          ],
+          "velocity": [
+            1.350756543658017,
+            -0.03978845560625596
+          ],
+          "angular_velocity": 1.3136268316516782,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.563999999999863,
+          "position": [
+            1.152681844656926,
+            -0.028536518026235136
+          ],
+          "velocity": [
+            1.3324280624829754,
+            -0.03829026720416582
+          ],
+          "angular_velocity": 1.297885985937391,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.603999999999877,
+          "position": [
+            1.205594047286409,
+            -0.0300369965297409
+          ],
+          "velocity": [
+            1.3140983503507717,
+            -0.03681075952103382
+          ],
+          "angular_velocity": 1.2821451402231039,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.64399999999989,
+          "position": [
+            1.2577730356677175,
+            -0.03147869139871995
+          ],
+          "velocity": [
+            1.2957674122396916,
+            -0.03535018061659296
+          ],
+          "angular_velocity": 1.2664042945088168,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.683999999999903,
+          "position": [
+            1.3092187608745944,
+            -0.032862365065523313
+          ],
+          "velocity": [
+            1.2774352536024831,
+            -0.03390878262374178
+          ],
+          "angular_velocity": 1.2506634487945296,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.723999999999917,
+          "position": [
+            1.3599311742091973,
+            -0.03418879013383247
+          ],
+          "velocity": [
+            1.25910188038572,
+            -0.03248682177554544
+          ],
+          "angular_velocity": 1.2349226030802425,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.76399999999993,
+          "position": [
+            1.4099102272222699,
+            -0.03545874954319128
+          ],
+          "velocity": [
+            1.2407672990496694,
+            -0.031084558429623394
+          ],
+          "angular_velocity": 1.2191817573659554,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.803999999999943,
+          "position": [
+            1.4591558717341102,
+            -0.03667303673445366
+          ],
+          "velocity": [
+            1.222431516588673,
+            -0.029702257089768945
+          ],
+          "angular_velocity": 1.2034409116516682,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.843999999999957,
+          "position": [
+            1.5076680598563756,
+            -0.03783245581602568
+          ],
+          "velocity": [
+            1.2040945405520194,
+            -0.02834018642464708
+          ],
+          "angular_velocity": 1.187700065937381,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.88399999999997,
+          "position": [
+            1.5554467440147257,
+            -0.0389378217308054
+          ],
+          "velocity": [
+            1.1857563790653187,
+            -0.02699861928341785
+          ],
+          "angular_velocity": 1.171959220223094,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.923999999999984,
+          "position": [
+            1.6024918769723304,
+            -0.039989960423675086
+          ],
+          "velocity": [
+            1.1674170408523634,
+            -0.02567783270813546
+          ],
+          "angular_velocity": 1.1562183745088068,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 9.963999999999997,
+          "position": [
+            1.6488034118542716,
+            -0.04098970900941401
+          ],
+          "velocity": [
+            1.1490765352574726,
+            -0.02437810794277716
+          ],
+          "angular_velocity": 1.1404775287945197,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.00400000000001,
+          "position": [
+            1.6943813021728351,
+            -0.04193791594090168
+          ],
+          "velocity": [
+            1.1307348722683037,
+            -0.02309973043876111
+          ],
+          "angular_velocity": 1.1247366830802326,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.044000000000024,
+          "position": [
+            1.7392255018537321,
+            -0.0428354411774734
+          ],
+          "velocity": [
+            1.1123920625391313,
+            -0.021842989856820098
+          ],
+          "angular_velocity": 1.1089958373659454,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.084000000000037,
+          "position": [
+            1.7833359652632663,
+            -0.04368315635325937
+          ],
+          "velocity": [
+            1.0940481174145655,
+            -0.02060818006510643
+          ],
+          "angular_velocity": 1.0932549916516583,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.12400000000005,
+          "position": [
+            1.8267126472364454,
+            -0.044481944945380825
+          ],
+          "velocity": [
+            1.0757030489537087,
+            -0.019395599133414595
+          ],
+          "angular_velocity": 1.0775141459373712,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.164000000000064,
+          "position": [
+            1.869355503106081,
+            -0.045232702441814876
+          ],
+          "velocity": [
+            1.057356869954727,
+            -0.018205549323422013
+          ],
+          "angular_velocity": 1.061773300223084,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.204000000000077,
+          "position": [
+            1.9112644887328716,
+            -0.04593633650879836
+          ],
+          "velocity": [
+            1.039009593979823,
+            -0.017038337074864258
+          ],
+          "angular_velocity": 1.046032454508797,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.24400000000009,
+          "position": [
+            1.9524395605364964,
+            -0.04659376715758734
+          ],
+          "velocity": [
+            1.0206612353805862,
+            -0.015894272987580355
+          ],
+          "angular_velocity": 1.0302916087945098,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.284000000000104,
+          "position": [
+            1.9928806755277302,
+            -0.0472059269104097
+          ],
+          "velocity": [
+            1.0023118093237013,
+            -0.014773671799386627
+          ],
+          "angular_velocity": 1.0145507630802226,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.324000000000117,
+          "position": [
+            2.0325877913415904,
+            -0.04777376096544517
+          ],
+          "velocity": [
+            0.9839613318169989,
+            -0.013676852359763847
+          ],
+          "angular_velocity": 0.9988099173659357,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.36400000000013,
+          "position": [
+            2.0715608662715375,
+            -0.048298227360666246
+          ],
+          "velocity": [
+            0.9656098197358117,
+            -0.012604137599373438
+          ],
+          "angular_velocity": 0.9830690716516508,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.404000000000144,
+          "position": [
+            2.1097998593047333,
+            -0.04878029713636867
+          ],
+          "velocity": [
+            0.9472572908496247,
+            -0.01155585449545397
+          ],
+          "angular_velocity": 0.9673282259373659,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.444000000000157,
+          "position": [
+            2.1473047301583725,
+            -0.04922095449624431
+          ],
+          "velocity": [
+            0.9289037638489841,
+            -0.01053233403319049
+          ],
+          "angular_velocity": 0.951587380223081,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.48400000000017,
+          "position": [
+            2.1840754393170934,
+            -0.049621196966811
+          ],
+          "velocity": [
+            0.9105492583726426,
+            -0.009533911163196355
+          ],
+          "angular_velocity": 0.9358465345087961,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.524000000000184,
+          "position": [
+            2.220111948071477,
+            -0.04998203555507619
+          ],
+          "velocity": [
+            0.892193795034913,
+            -0.008560924755301626
+          ],
+          "angular_velocity": 0.9201056887945112,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.564000000000197,
+          "position": [
+            2.2554142185576525,
+            -0.05030449490426925
+          ],
+          "velocity": [
+            0.8738373954532048,
+            -0.007613717548904269
+          ],
+          "angular_velocity": 0.9043648430802262,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.60400000000021,
+          "position": [
+            2.2899822137980017,
+            -0.050589613447530546
+          ],
+          "velocity": [
+            0.8554800822757104,
+            -0.006692636100211613
+          ],
+          "angular_velocity": 0.8886239973659413,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.644000000000224,
+          "position": [
+            2.3238158977429664,
+            -0.05083844355942668
+          ],
+          "velocity": [
+            0.8371218792092259,
+            -0.00579803072678103
+          ],
+          "angular_velocity": 0.8728831516516564,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.684000000000237,
+          "position": [
+            2.356915235313989,
+            -0.051052051705195556
+          ],
+          "velocity": [
+            0.8187628110470709,
+            -0.0049302554498620605
+          ],
+          "angular_velocity": 0.8571423059373715,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.72400000000025,
+          "position": [
+            2.3892801924475555,
+            -0.05123151858766084
+          ],
+          "velocity": [
+            0.8004029036970919,
+            -0.004089667935149032
+          ],
+          "angular_velocity": 0.8414014602230866,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.764000000000264,
+          "position": [
+            2.4209107361403657,
+            -0.05137793929174306
+          ],
+          "velocity": [
+            0.7820421842097314,
+            -0.0032766294326755452
+          ],
+          "angular_velocity": 0.8256606145088017,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.804000000000277,
+          "position": [
+            2.451806834495629,
+            -0.051492423426571676
+          ],
+          "velocity": [
+            0.7636806808061423,
+            -0.0024915047167226798
+          ],
+          "angular_velocity": 0.8099197687945168,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.84400000000029,
+          "position": [
+            2.4819684567704834,
+            -0.05157609526521112
+          ],
+          "velocity": [
+            0.7453184229063453,
+            -0.001734662026774152
+          ],
+          "angular_velocity": 0.7941789230802319,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.884000000000304,
+          "position": [
+            2.511395573424545,
+            -0.051630093882067296
+          ],
+          "velocity": [
+            0.7269554411574254,
+            -0.0010064730107375809
+          ],
+          "angular_velocity": 0.778438077365947,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.924000000000317,
+          "position": [
+            2.540088156169576,
+            -0.05165557328809145
+          ],
+          "velocity": [
+            0.7085917674617733,
+            -0.00030731267186579397
+          ],
+          "angular_velocity": 0.762697231651662,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 10.96400000000033,
+          "position": [
+            2.568046178020298,
+            -0.05165370256397184
+          ],
+          "velocity": [
+            0.6902274350053926,
+            0.0003624406789392931
+          ],
+          "angular_velocity": 0.7469563859373771,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.004000000000344,
+          "position": [
+            2.5952696133463307,
+            -0.05162566599156726
+          ],
+          "velocity": [
+            0.6718624782863055,
+            0.0010024054634686984
+          ],
+          "angular_velocity": 0.7312155402230922,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.044000000000358,
+          "position": [
+            2.6217584379252714,
+            -0.051572663183919065
+          ],
+          "velocity": [
+            0.6534969331431066,
+            0.0016121968668858485
+          ],
+          "angular_velocity": 0.7154746945088073,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.084000000000371,
+          "position": [
+            2.6475126289969215,
+            -0.05149590921428082
+          ],
+          "velocity": [
+            0.6351308367837323,
+            0.00219142685604058
+          ],
+          "angular_velocity": 0.6997338487945224,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.124000000000384,
+          "position": [
+            2.667115649416347,
+            -0.057180919097000515
+          ],
+          "velocity": [
+            0.4148332160149401,
+            -0.21144189685504594
+          ],
+          "angular_velocity": 1.527578737807996,
+          "held": false,
+          "contact": true,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.164000000000398,
+          "position": [
+            2.6833738126436573,
+            -0.06544690596233105
+          ],
+          "velocity": [
+            0.3988694691579264,
+            -0.20232009718900176
+          ],
+          "angular_velocity": 1.5118378920937088,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.204000000000411,
+          "position": [
+            2.6989929584485126,
+            -0.07334885987338469
+          ],
+          "velocity": [
+            0.3828833511283274,
+            -0.19323848197031362
+          ],
+          "angular_velocity": 1.4960970463794216,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.244000000000424,
+          "position": [
+            2.7139721774683534,
+            -0.08088841955788961
+          ],
+          "velocity": [
+            0.36687416332204215,
+            -0.18419856153279593
+          ],
+          "angular_velocity": 1.4803562006651345,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.284000000000438,
+          "position": [
+            2.728310531379812,
+            -0.08806728656959883
+          ],
+          "velocity": [
+            0.35084115787107517,
+            -0.1752019632302032
+          ],
+          "angular_velocity": 1.4646153549508474,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.324000000000451,
+          "position": [
+            2.7420070508090406,
+            -0.09488723026753076
+          ],
+          "velocity": [
+            0.3347835318318947,
+            -0.1662504460113243
+          ],
+          "angular_velocity": 1.4488745092365602,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.364000000000464,
+          "position": [
+            2.7550607329897874,
+            -0.10135009342986034
+          ],
+          "velocity": [
+            0.31870042040191926,
+            -0.15734591753379207
+          ],
+          "angular_velocity": 1.4331336635222731,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.404000000000478,
+          "position": [
+            2.7674705391260717,
+            -0.1074577986155485
+          ],
+          "velocity": [
+            0.3025908889525653,
+            -0.14849045438944478
+          ],
+          "angular_velocity": 1.417392817807986,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.444000000000491,
+          "position": [
+            2.779235391406686,
+            -0.11321235541298247
+          ],
+          "velocity": [
+            0.28645392360983746,
+            -0.13968632617477816
+          ],
+          "angular_velocity": 1.4016519720936989,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.484000000000504,
+          "position": [
+            2.7903541696064673,
+            -0.11861586874851238
+          ],
+          "velocity": [
+            0.2702884200370144,
+            -0.13093602435538593
+          ],
+          "angular_velocity": 1.3859111263794117,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.524000000000518,
+          "position": [
+            2.800825707193403,
+            -0.12367054847159631
+          ],
+          "velocity": [
+            0.2540931699710975,
+            -0.12224229716545532
+          ],
+          "angular_velocity": 1.3701702806651246,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.564000000000531,
+          "position": [
+            2.810648786839896,
+            -0.12837872049087817
+          ],
+          "velocity": [
+            0.23786684492437354,
+            -0.11360819218508245
+          ],
+          "angular_velocity": 1.3544294349508375,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.604000000000545,
+          "position": [
+            2.819822135209132,
+            -0.1327428398123831
+          ],
+          "velocity": [
+            0.22160797626835227,
+            -0.1050371087985742
+          ],
+          "angular_velocity": 1.3386885892365503,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.644000000000558,
+          "position": [
+            2.828344416850732,
+            -0.13676550593488201
+          ],
+          "velocity": [
+            0.205314930644629,
+            -0.09653286353132066
+          ],
+          "angular_velocity": 1.3229477435222632,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.684000000000571,
+          "position": [
+            2.8362142269899766,
+            -0.1404494812000303
+          ],
+          "velocity": [
+            0.18898587925742022,
+            -0.08809977240903659
+          ],
+          "angular_velocity": 1.307206897807976,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.724000000000585,
+          "position": [
+            2.843430082925851,
+            -0.14379771289381083
+          ],
+          "velocity": [
+            0.1726187590345573,
+            -0.07974275616970655
+          ],
+          "angular_velocity": 1.291466052093689,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.764000000000598,
+          "position": [
+            2.849990413656061,
+            -0.14681336017880842
+          ],
+          "velocity": [
+            0.1562112227982497,
+            -0.07146747669513669
+          ],
+          "angular_velocity": 1.2757252063794018,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.804000000000611,
+          "position": [
+            2.855893547207545,
+            -0.14949982734782674
+          ],
+          "velocity": [
+            0.1397605742974208,
+            -0.0632805169396239
+          ],
+          "angular_velocity": 1.2599843606651147,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.844000000000625,
+          "position": [
+            2.8611376949457807,
+            -0.1518608055009416
+          ],
+          "velocity": [
+            0.12326368193113288,
+            -0.05518962283504783
+          ],
+          "angular_velocity": 1.2442435149508275,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.884000000000638,
+          "position": [
+            2.86572093182594,
+            -0.15390032568348655
+          ],
+          "velocity": [
+            0.10671686171625425,
+            -0.04720403581518777
+          ],
+          "angular_velocity": 1.2285026692365404,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.924000000000651,
+          "position": [
+            2.869641171065099,
+            -0.15562282800015792
+          ],
+          "velocity": [
+            0.09011571453270628,
+            -0.03933496192090429
+          ],
+          "angular_velocity": 1.2127618235222533,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 11.964000000000665,
+          "position": [
+            2.872896130930188,
+            -0.15703325364705956
+          ],
+          "velocity": [
+            0.07345489291177239,
+            -0.03159625441791823
+          ],
+          "angular_velocity": 1.1970209778079661,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.004000000000678,
+          "position": [
+            2.8754832900002265,
+            -0.15813717098768176
+          ],
+          "velocity": [
+            0.056727754155280266,
+            -0.02400544588664761
+          ],
+          "angular_velocity": 1.181280132093679,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.044000000000691,
+          "position": [
+            2.877399824821523,
+            -0.1589409545107947
+          ],
+          "velocity": [
+            0.03992581779333786,
+            -0.01658538953087284
+          ],
+          "angular_velocity": 1.1655392863793919,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.084000000000705,
+          "position": [
+            2.8786425188532396,
+            -0.15945205136644836
+          ],
+          "velocity": [
+            0.023037845486708328,
+            -0.00936708083146009
+          ],
+          "angular_velocity": 1.1497984406651047,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.124000000000718,
+          "position": [
+            2.8792076016134076,
+            -0.15967945300781494
+          ],
+          "velocity": [
+            0.006044241477745718,
+            -0.00240476593468533
+          ],
+          "angular_velocity": 1.1340575949508176,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.164000000000732,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.1183167492365305,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.204000000000745,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.1025759035222433,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.244000000000758,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.0868350578079562,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.284000000000772,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.071094212093669,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.324000000000785,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.055353366379382,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.364000000000798,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.0396125206650948,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.404000000000812,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.0238716749508077,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.444000000000825,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 1.0081308292365205,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.484000000000838,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.9923899835222345,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.524000000000852,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.9766491378079496,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.564000000000865,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.9609082920936647,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.604000000000879,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.9451674463793798,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.644000000000892,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.9294266006650949,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.684000000000905,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.91368575495081,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.724000000000919,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.897944909236525,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.764000000000932,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8822040635222401,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.804000000000945,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8664632178079552,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.844000000000959,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8507223720936703,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.884000000000972,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8349815263793854,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.924000000000985,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8192406806651005,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 12.964000000000999,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.8034998349508156,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.004000000001012,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.7877589892365306,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.044000000001025,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.7720181435222457,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.084000000001039,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.7562772978079608,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.124000000001052,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.7405364520936759,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.164000000001066,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.724795606379391,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.204000000001079,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.7090547606651061,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.244000000001092,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6933139149508212,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.284000000001106,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6775730692365363,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.324000000001119,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6618322235222514,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.364000000001132,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6460913778079664,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.404000000001146,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6303505320936815,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.444000000001159,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.6146096863793966,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.484000000001172,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.5988688406651117,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.524000000001186,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.5831279949508268,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.564000000001199,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.5673871492365419,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.604000000001212,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.551646303522257,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.644000000001226,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.535905457807972,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.68400000000124,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.5201646120936871,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.724000000001253,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.5044237663794022,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.764000000001266,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.4886829206651165,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.80400000000128,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.47294207495083046,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.844000000001293,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.45720122923654444,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.884000000001306,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.4414603835222584,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.92400000000132,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.4257195378079724,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 13.964000000001333,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.40997869209368637,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.004000000001346,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.39423784637940035,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.04400000000136,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.3784970006651143,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.084000000001373,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.3627561549508283,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.124000000001386,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.3470153092365423,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.1640000000014,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.33127446352225626,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.204000000001413,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.31553361780797023,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.244000000001426,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.2997927720936842,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.28400000000144,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.2840519263793982,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.324000000001453,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.26831108066511217,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.364000000001466,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.25257023495082614,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.40400000000148,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.2368293892365406,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.444000000001493,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.22108854352225513,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.484000000001506,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.20534769780796966,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.52400000000152,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.1896068520936842,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.564000000001533,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.17386600637939872,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.604000000001546,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.15812516066511326,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.64400000000156,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.1423843149508278,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.684000000001573,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.12664346923654232,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.724000000001586,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.1109026235222566,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.7640000000016,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.09516177780797086,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.804000000001613,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.07942093209368511,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.844000000001627,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.06368008637939937,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.88400000000164,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.047939240665113625,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.924000000001653,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.03219839495082788,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 14.964000000001667,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.016457549236542135,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.00400000000168,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 0.0007167035222564211,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.044000000001693,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.084000000001707,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.12400000000172,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.164000000001733,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.204000000001747,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        },
+        {
+          "time": 15.24400000000176,
+          "position": [
+            2.879244443469269,
+            -0.15969411093309338
+          ],
+          "velocity": [
+            1.3190655292757752e-21,
+            5.42525236032748e-22
+          ],
+          "angular_velocity": 4.986432903346917e-59,
+          "held": false,
+          "contact": false,
+          "sweeping": false,
+          "sweep_seconds": 0.0
+        }
+      ],
+      "sweep_events": [],
+      "result": {
+        "phase": "RESULT",
+        "stones": [
+          {
+            "id": 0,
+            "alive": true,
+            "position": [
+              2.92036969479399,
+              -0.02262541484067393,
+              0.026
+            ],
+            "score": 78
+          },
+          {
+            "id": 1,
+            "alive": true,
+            "position": [
+              2.8038863830966676,
+              0.13049414773625,
+              0.026
+            ],
+            "score": 39
+          },
+          {
+            "id": 2,
+            "alive": true,
+            "position": [
+              2.879244443469269,
+              -0.15969411093309338,
+              0.026
+            ],
+            "score": 48
+          }
+        ],
+        "score": 165,
+        "collisions": [
+          [
+            1,
+            2
+          ]
+        ],
+        "max_height": 0.026,
+        "max_speed": 1.5074390041849783,
+        "max_passive_energy": 0.22747321462081224,
+        "planar": true,
+        "release": {
+          "position": [
+            0.613456320036984,
+            -0.011210186956483348,
+            0.026
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            1.4474240202231188,
+            1.506498404509603,
+            -0.05324385925362449,
+            0.0
+          ],
+          "command_speed": 1.5969696969696972,
+          "command_omega": 1.5,
+          "time": 9.183999999999736,
+          "stone_kinetic_energy": 0.22775051902592805
+        },
+        "simulation_time": 15.278000000001771
+      },
+      "end_estimate": {
+        "friction": 0.046885415677718006,
+        "curl": 0.030020303426478816,
+        "curl_observable": true,
+        "curl_weight": 0.9999999723882348,
+        "curl_standard_error": 2.03513264846766e-06
+      },
+      "update_count": 26
+    }
+  ],
+  "estimate_updates": [
+    {
+      "time": 1.1440000000000008,
+      "friction": 0.05070001061291082,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 1.344000000000001,
+      "friction": 0.05115501751130214,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 1.5440000000000011,
+      "friction": 0.051450771995256245,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 1.7440000000000013,
+      "friction": 0.0516430124098272,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 1.9440000000000015,
+      "friction": 0.05176796867929915,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 2.1439999999999855,
+      "friction": 0.051849190254456445,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 2.3439999999999634,
+      "friction": 0.05190198427830958,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 2.5439999999999414,
+      "friction": 0.05193630039381485,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 2.7439999999999194,
+      "friction": 0.05195860586889334,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 2.9439999999998974,
+      "friction": 0.05197310442769436,
+      "curl": 0.03,
+      "curl_observable": false
+    },
+    {
+      "time": 4.937999999999678,
+      "friction": 0.05107251270199399,
+      "curl": 0.030000215325520843,
+      "curl_observable": true
+    },
+    {
+      "time": 5.137999999999656,
+      "friction": 0.050487127918351596,
+      "curl": 0.030000983368513853,
+      "curl_observable": true
+    },
+    {
+      "time": 5.337999999999634,
+      "friction": 0.050106627736986445,
+      "curl": 0.030002230287988665,
+      "curl_observable": true
+    },
+    {
+      "time": 5.537999999999612,
+      "friction": 0.0498593026591795,
+      "curl": 0.03000394043104631,
+      "curl_observable": true
+    },
+    {
+      "time": 5.73799999999959,
+      "friction": 0.04969854153515006,
+      "curl": 0.03000614914511318,
+      "curl_observable": true
+    },
+    {
+      "time": 5.937999999999568,
+      "friction": 0.04959404714359757,
+      "curl": 0.030008946210419857,
+      "curl_observable": true
+    },
+    {
+      "time": 6.137999999999546,
+      "friction": 0.04952612631758073,
+      "curl": 0.0300124932659543,
+      "curl_observable": true
+    },
+    {
+      "time": 6.337999999999524,
+      "friction": 0.049481978525424616,
+      "curl": 0.030017066053108055,
+      "curl_observable": true
+    },
+    {
+      "time": 9.88399999999997,
+      "friction": 0.048543281157852884,
+      "curl": 0.0300108735587318,
+      "curl_observable": true
+    },
+    {
+      "time": 10.084000000000037,
+      "friction": 0.04793312772527234,
+      "curl": 0.030007384603114806,
+      "curl_observable": true
+    },
+    {
+      "time": 10.284000000000104,
+      "friction": 0.047536527929090126,
+      "curl": 0.03000574694635436,
+      "curl_observable": true
+    },
+    {
+      "time": 10.48400000000017,
+      "friction": 0.04727873809344896,
+      "curl": 0.030005429571141662,
+      "curl_observable": true
+    },
+    {
+      "time": 10.684000000000237,
+      "friction": 0.04711117484904169,
+      "curl": 0.03000611849472149,
+      "curl_observable": true
+    },
+    {
+      "time": 10.884000000000304,
+      "friction": 0.04700225902714843,
+      "curl": 0.0300076534437623,
+      "curl_observable": true
+    },
+    {
+      "time": 11.084000000000371,
+      "friction": 0.04693146419009667,
+      "curl": 0.0300099943634943,
+      "curl_observable": true
+    },
+    {
+      "time": 11.764000000000598,
+      "friction": 0.046885415677718006,
+      "curl": 0.030020303426478816,
+      "curl_observable": true
+    }
+  ],
+  "final_result": {
+    "phase": "RESULT",
+    "stones": [
+      {
+        "id": 0,
+        "alive": true,
+        "position": [
+          2.92036969479399,
+          -0.02262541484067393,
+          0.026
+        ],
+        "score": 78
+      },
+      {
+        "id": 1,
+        "alive": true,
+        "position": [
+          2.8038863830966676,
+          0.13049414773625,
+          0.026
+        ],
+        "score": 39
+      },
+      {
+        "id": 2,
+        "alive": true,
+        "position": [
+          2.879244443469269,
+          -0.15969411093309338,
+          0.026
+        ],
+        "score": 48
+      }
+    ],
+    "score": 165,
+    "collisions": [
+      [
+        1,
+        2
+      ]
+    ],
+    "max_height": 0.026,
+    "max_speed": 1.5074390041849783,
+    "max_passive_energy": 0.22747321462081224,
+    "planar": true,
+    "release": {
+      "position": [
+        0.613456320036984,
+        -0.011210186956483348,
+        0.026
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        1.4474240202231188,
+        1.506498404509603,
+        -0.05324385925362449,
+        0.0
+      ],
+      "command_speed": 1.5969696969696972,
+      "command_omega": 1.5,
+      "time": 9.183999999999736,
+      "stone_kinetic_energy": 0.22775051902592805
+    },
+    "simulation_time": 15.278000000001771
+  }
+}

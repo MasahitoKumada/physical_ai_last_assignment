@@ -1,0 +1,9 @@
+{
+  "path": "video/game_poc.mp4",
+  "fps": 25,
+  "frames": 897,
+  "duration_seconds": 35.88,
+  "learned_ai": false,
+  "prediction": "known-ice reference rollout",
+  "submission_video": false
+}

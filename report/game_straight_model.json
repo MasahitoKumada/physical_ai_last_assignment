@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "straight_free_glide_friction_only",
+  "feature": "negative_OLS_speed_slope_m_s2",
+  "feature_mean": 0.4905000000000004,
+  "feature_scale": 0.09176414741063973,
+  "intercept": 0.050000000000000024,
+  "coefficient": 0.009354143347009942,
+  "regularization": 1e-06,
+  "friction_bounds": [
+    0.02,
+    0.09
+  ]
+}

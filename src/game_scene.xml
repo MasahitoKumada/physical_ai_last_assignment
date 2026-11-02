@@ -1,0 +1,92 @@
+<mujoco model="curling_poc">
+  <option timestep="0.002" integrator="implicitfast" cone="elliptic"/>
+  <visual>
+    <global offwidth="1280" offheight="720"/>
+    <headlight ambient=".55 .55 .55" diffuse=".6 .6 .6"/>
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".10 .16 .25" rgb2=".03 .05 .09" width="128" height="128"/>
+  </asset>
+  <default>
+    <default class="decor">
+      <geom contype="0" conaffinity="0" mass="0"/>
+    </default>
+  </default>
+  <worldbody>
+    <light pos="2 -1 4" dir="0 0 -1" diffuse=".8 .8 .8"/>
+    <light pos="0 2 3" dir=".2 -1 -1" diffuse=".4 .4 .4"/>
+    <geom name="floor" type="plane" size="5 2 .1" rgba="0 0 0 0"/>
+    <geom class="decor" type="box" pos="2 0 -.035" size="2 .75 .035" rgba=".82 .91 .96 1"/>
+    <geom class="decor" type="box" pos="2 -.75 .001" size="2 .006 .001" rgba=".18 .32 .52 1"/>
+    <geom class="decor" type="box" pos="2 .75 .001" size="2 .006 .001" rgba=".18 .32 .52 1"/>
+    <geom class="decor" type="box" pos="4 0 .001" size=".006 .75 .001" rgba=".18 .32 .52 1"/>
+    <site type="cylinder" pos="3 0 .001" size=".45 .0004" rgba=".12 .35 .72 1"/>
+    <site type="cylinder" pos="3 0 .002" size=".30 .0004" rgba=".98 .98 .98 1"/>
+    <site type="cylinder" pos="3 0 .003" size=".15 .0004" rgba=".85 .15 .20 1"/>
+    <geom class="decor" type="box" pos=".70 0 .001" size=".003 .74 .001" rgba=".40 .55 .68 1"/>
+    <!-- The frame is visual. Translational and rotary actuators move the tool. -->
+    <geom class="decor" type="box" pos=".55 -.57 .60" size=".62 .025 .025" rgba=".26 .40 .57 1"/>
+    <geom class="decor" type="box" pos=".55 .57 .60" size=".62 .025 .025" rgba=".26 .40 .57 1"/>
+    <geom class="decor" type="box" pos="0 -.57 .30" size=".025 .025 .30" rgba=".36 .49 .63 1"/>
+    <geom class="decor" type="box" pos="0 .57 .30" size=".025 .025 .30" rgba=".36 .49 .63 1"/>
+    <geom class="decor" type="box" pos="1.1 -.57 .30" size=".025 .025 .30" rgba=".36 .49 .63 1"/>
+    <geom class="decor" type="box" pos="1.1 .57 .30" size=".025 .025 .30" rgba=".36 .49 .63 1"/>
+    <body name="gantry_x" pos=".30 0 .60">
+      <joint name="axis_x" type="slide" axis="1 0 0" damping="1"/>
+      <geom type="box" size=".035 .60 .025" mass=".35" contype="0" conaffinity="0" rgba=".12 .49 .76 1"/>
+      <body name="gantry_y">
+        <joint name="axis_y" type="slide" axis="0 1 0" damping="1"/>
+        <geom type="box" size=".06 .055 .045" mass=".2" contype="0" conaffinity="0" rgba=".12 .49 .76 1"/>
+        <body name="lift">
+          <joint name="axis_z" type="slide" axis="0 0 1" damping="1"/>
+          <geom type="cylinder" pos="0 0 -.24" size=".014 .24" mass=".08" contype="0" conaffinity="0" rgba=".72 .82 .89 1"/>
+          <body name="tool" pos="0 0 -.524">
+            <joint name="axis_yaw" type="hinge" axis="0 0 1" damping=".01"/>
+            <geom type="box" size=".06 .045 .012" mass=".05" contype="0" conaffinity="0" rgba=".1 .45 .7 1"/>
+            <geom class="decor" type="box" pos="0 -.028 -.012" size=".035 .008 .015" rgba=".1 .45 .7 1"/>
+            <geom class="decor" type="box" pos="0 .028 -.012" size=".035 .008 .015" rgba=".1 .45 .7 1"/>
+            <site name="grip" pos="0 0 -.05" size=".005" rgba="0 0 0 0"/>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="stone0" pos="-1 2 .026">
+      <freejoint name="stone0_free"/>
+      <geom name="disk0" type="cylinder" size=".07 .025" mass=".2" rgba="1 .48 .08 1"/>
+      <geom class="decor" type="capsule" fromto="-.035 0 .043 .035 0 .043" size=".008" rgba=".95 .76 .15 1"/>
+      <site name="stone0_grip" size=".003" rgba="0 0 0 0"/>
+    </body>
+    <body name="stone1" pos="-1 2.3 .026">
+      <freejoint name="stone1_free"/>
+      <geom name="disk1" type="cylinder" size=".07 .025" mass=".2" rgba=".1 .66 .78 1"/>
+      <geom class="decor" type="capsule" fromto="-.035 0 .043 .035 0 .043" size=".008" rgba=".08 .32 .45 1"/>
+      <site name="stone1_grip" size=".003" rgba="0 0 0 0"/>
+    </body>
+    <body name="stone2" pos="-1 2.6 .026">
+      <freejoint name="stone2_free"/>
+      <geom name="disk2" type="cylinder" size=".07 .025" mass=".2" rgba=".65 .38 .86 1"/>
+      <geom class="decor" type="capsule" fromto="-.035 0 .043 .035 0 .043" size=".008" rgba=".34 .14 .56 1"/>
+      <site name="stone2_grip" size=".003" rgba="0 0 0 0"/>
+    </body>
+  </worldbody>
+  <equality>
+    <!-- Site-based welds represent a grasp; no puck velocity is injected at release. -->
+    <weld name="grasp0" site1="grip" site2="stone0_grip" active="false" solref=".008 1"/>
+    <weld name="grasp1" site1="grip" site2="stone1_grip" active="false" solref=".008 1"/>
+    <weld name="grasp2" site1="grip" site2="stone2_grip" active="false" solref=".008 1"/>
+  </equality>
+  <contact>
+    <pair name="ice0" geom1="floor" geom2="disk0" condim="4" friction=".05 .05 .00002 .0001 .0001"/>
+    <pair name="ice1" geom1="floor" geom2="disk1" condim="4" friction=".05 .05 .00002 .0001 .0001"/>
+    <pair name="ice2" geom1="floor" geom2="disk2" condim="4" friction=".05 .05 .00002 .0001 .0001"/>
+    <pair geom1="disk0" geom2="disk1" condim="4" friction=".10 .10 .0001 .0001 .0001" solref=".02 .25"/>
+    <pair geom1="disk0" geom2="disk2" condim="4" friction=".10 .10 .0001 .0001 .0001" solref=".02 .25"/>
+    <pair geom1="disk1" geom2="disk2" condim="4" friction=".10 .10 .0001 .0001 .0001" solref=".02 .25"/>
+  </contact>
+  <actuator>
+    <position name="drive_x" joint="axis_x" kp="4000" kv="100" forcerange="-80 80"/>
+    <position name="drive_y" joint="axis_y" kp="4000" kv="80" forcerange="-80 80"/>
+    <position name="drive_z" joint="axis_z" kp="8000" kv="100" forcerange="-80 80"/>
+    <position name="drive_yaw" joint="axis_yaw" kp="50" kv=".8" forcerange="-3 3"/>
+  </actuator>
+</mujoco>

@@ -1,0 +1,535 @@
+{
+  "account": "bonsai2026",
+  "purpose": "Source and evidence for the final assignment; implementation frozen",
+  "submitted_report": "docs/説明資料_PAI最終課題_bonsai2026.pdf",
+  "development_drafts": "Older report/*draft* files are retained only as development records",
+  "excluded": [
+    "virtual environment",
+    "videos",
+    "course original PDF",
+    "individual playtest logs",
+    "latest user session"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9371,
+      "sha256": "5a471a1b796adf980a4b0c1200c4a5d404f7d192ac6a04830db12f5fd9da0374"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 100,
+      "sha256": "c2f14872026b17b0c08d4c780943763bde9f7b4565db2251bf8281df9ecbdcd2"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 559,
+      "sha256": "af6af564fc12ecdab0b745e9ac3a31a099afcfd054945c55aec68597898f22b4"
+    },
+    {
+      "path": "src/analysis.py",
+      "bytes": 34339,
+      "sha256": "2be314f175d9da644f0a572ab86e37c75a1cafc82598318e68e0c89eb405b4be"
+    },
+    {
+      "path": "src/check_ui_layout.py",
+      "bytes": 4276,
+      "sha256": "d03fbec99d7b0cc66acf94d9d611efdc4127c3269dfd19ab3249720f4ce2dc20"
+    },
+    {
+      "path": "src/collision_poc.py",
+      "bytes": 21145,
+      "sha256": "650b8ed9976dd84f2186262d13fe31104b6d85d0bc98dc466ee664c5cb0b30c3"
+    },
+    {
+      "path": "src/comparison.py",
+      "bytes": 19711,
+      "sha256": "34ee93786abd701274ba49c700e5fa9991e1d16ba3bf04075e8b77ee9279b0bc"
+    },
+    {
+      "path": "src/curling.py",
+      "bytes": 24392,
+      "sha256": "5d426df5df8b202eb4e0198d35b758f43e2b57e0f5470a4b4e5c53e204044cfc"
+    },
+    {
+      "path": "src/curved_poc.py",
+      "bytes": 16881,
+      "sha256": "73c511354d44d1df96802a2748d556ab99400e40c0015367d6d8070474fbb4f4"
+    },
+    {
+      "path": "src/game.py",
+      "bytes": 9762,
+      "sha256": "8b1e7b5ed236024f268a10aac9b888a23d50358af4e081db15e8f105e3d5be03"
+    },
+    {
+      "path": "src/learning_poc.py",
+      "bytes": 13720,
+      "sha256": "7901fa9684a0a287584de20eee199556708518dc3cae8b3dac0d0018e652aac8"
+    },
+    {
+      "path": "src/physics.py",
+      "bytes": 23904,
+      "sha256": "6d10107660b49a378b577d8908881908434c40676aeef222f92e9e468ad4570e"
+    },
+    {
+      "path": "src/player_view.py",
+      "bytes": 6592,
+      "sha256": "71ed5179b4c06bb0a464213551ab7ad75f128baf791a49e6b239024e9b95c379"
+    },
+    {
+      "path": "src/playtest.py",
+      "bytes": 19849,
+      "sha256": "46d95bad4007a60ace1393361ee383954495f5d2851b83e171b605591dd64f4f"
+    },
+    {
+      "path": "src/poc.py",
+      "bytes": 19439,
+      "sha256": "17a2da8402c73e17978e872d5fe9eb4e5505d1d149e223ad6809d4a4da098003"
+    },
+    {
+      "path": "src/predictor.py",
+      "bytes": 19129,
+      "sha256": "c078d2231e70aec6dc2668b00ebb4a38bb23c163415f7802652f100098eec1a3"
+    },
+    {
+      "path": "src/test_comparison.py",
+      "bytes": 2189,
+      "sha256": "acd2fd6fddf74e432a78f40c28afaff874ff8fba4fe4e3703cbc27b3c68a1768"
+    },
+    {
+      "path": "src/test_player_view.py",
+      "bytes": 2406,
+      "sha256": "72bb06f3f6a2b7636aef9488fa2fb525332c59b4bd2f5a11eb10b2188efa0a07"
+    },
+    {
+      "path": "src/test_playtest.py",
+      "bytes": 5202,
+      "sha256": "becf15aeff8792b35288f86c40cdd405089df6a6d501cd5041f5d636405de578"
+    },
+    {
+      "path": "src/test_predictor.py",
+      "bytes": 13942,
+      "sha256": "140de3cf1d6d95747572cb60a85d135cd42ab7f6cb51257efe196fb966abcae6"
+    },
+    {
+      "path": "src/ui.py",
+      "bytes": 26333,
+      "sha256": "f73053dfe6cbf68c130b5df5bc3a7f93c2635a8336711d5c3e13aab1a09df054"
+    },
+    {
+      "path": "src/game_scene.xml",
+      "bytes": 5761,
+      "sha256": "abfbfd7916ab4ce1e42b42b6f7dc4b1a785b1b9902574de82523d73432b0be84"
+    },
+    {
+      "path": "src/scene.xml",
+      "bytes": 3375,
+      "sha256": "ad0c4e7fcf293dd0473d8fe1d204bb143ec7144fa797765947d57f41cc7a56f5"
+    },
+    {
+      "path": "docs/requirements.md",
+      "bytes": 8739,
+      "sha256": "86b590eeb34d84e3f721ca24fa7925d2adbc517afd68bdbbe5a5f37e5bec7dc5"
+    },
+    {
+      "path": "docs/implementation_spec.md",
+      "bytes": 28714,
+      "sha256": "d5a91bb80451043bee60bb02252ca015631747a11dc731843d60bed8d252b489"
+    },
+    {
+      "path": "docs/poc_findings.md",
+      "bytes": 43181,
+      "sha256": "2b9737f8de4a58e52fa65d0d7522e38d1b444bfb7a6b007da78dd1c80ee9ce70"
+    },
+    {
+      "path": "docs/playtest.md",
+      "bytes": 4444,
+      "sha256": "50dd32bb49b8b884125cd657101adb6ad571dd3bde331d62d49fe9a4466a7cf5"
+    },
+    {
+      "path": "docs/説明資料_PAI最終課題_bonsai2026.pdf",
+      "bytes": 690584,
+      "sha256": "a478a411771315ddfdc763b2cc9e735e6915cbba106867b6eac46c14419ba487"
+    },
+    {
+      "path": "docs/説明資料_本文.txt",
+      "bytes": 6397,
+      "sha256": "37cd83c5e97847bbf733dc42d75fcea4c0ee5ec9495cd27932e9f18eae8a2333"
+    },
+    {
+      "path": "report/evaluation.csv",
+      "bytes": 3289,
+      "sha256": "cc89935a5e69e9f8ef560698e1f7fd61a622499bbd43f599d2181fec64a58284"
+    },
+    {
+      "path": "report/evaluation.json",
+      "bytes": 9222,
+      "sha256": "290b7d5ea49df7cd2222724263bc0aa233295a26555625882783eb4b61447982"
+    },
+    {
+      "path": "report/evaluation.png",
+      "bytes": 90465,
+      "sha256": "8552d4c5eb4a23196d2764870a8a15ec22532517b6dc325a96e75b156c78d439"
+    },
+    {
+      "path": "report/game_ai_roles.png",
+      "bytes": 157393,
+      "sha256": "6f87f5cd4562f0ce766955422cccdefc6647f9f9e4d377af2e04c57d485ed834"
+    },
+    {
+      "path": "report/game_aim_preview.png",
+      "bytes": 64111,
+      "sha256": "ad325ce9325bed3a4315212ec89218f3119155e5beaa1595f49decbd3c4e6313"
+    },
+    {
+      "path": "report/game_collision_evaluation.csv",
+      "bytes": 86208,
+      "sha256": "97214c8762bc74583178a61fbc6f451dc43207bc0051dbf71ce197bf7cbbf547"
+    },
+    {
+      "path": "report/game_collision_evaluation.json",
+      "bytes": 706242,
+      "sha256": "79bfb22a596eb87207cf299423ebc8d1cbe606384a2d31cba0615bf6bf7c998c"
+    },
+    {
+      "path": "report/game_collision_evaluation.png",
+      "bytes": 80120,
+      "sha256": "5a8a63cfd87ccfc03dd992660d9402c6698e7333f63ede0d9e3c20d0426d7c91"
+    },
+    {
+      "path": "report/game_collision_failure_analysis.json",
+      "bytes": 10401,
+      "sha256": "e7b5d284c06b8fac07c92818943195e3434aca81f043a43726151a9011a2e8ec"
+    },
+    {
+      "path": "report/game_collision_shots.json",
+      "bytes": 987797,
+      "sha256": "6044aa48d408faa0845a454be844881c76b40ba51db4b29ea77d3a2c9fc75ebd"
+    },
+    {
+      "path": "report/game_comparison_figure_sources.json",
+      "bytes": 457,
+      "sha256": "66603cbbf9a9419be4beba9d421afb650341972d09946b999ec1f5f42615cd42"
+    },
+    {
+      "path": "report/game_comparison_turn_2.png",
+      "bytes": 91833,
+      "sha256": "e4e2b8ade3add44cc3d689cdd578a5dc83a9068877a330f9bf8ef289c68e8413"
+    },
+    {
+      "path": "report/game_comparison_turn_2_inflight.png",
+      "bytes": 95636,
+      "sha256": "88ec103201afeba3f096833e33cd00990fdbb3f3aac171c21236b7020a5beaa5"
+    },
+    {
+      "path": "report/game_comparison_turn_3.png",
+      "bytes": 92141,
+      "sha256": "c9aae93dc49671ceecb86a15dac4810fa4cfa2cf55c1cdc03c07fd12e35733cd"
+    },
+    {
+      "path": "report/game_curved_evaluation.csv",
+      "bytes": 66571,
+      "sha256": "abb973038d06c4cdaedda53eb64136a082465b5faf45171988aea796c4ded725"
+    },
+    {
+      "path": "report/game_curved_evaluation.json",
+      "bytes": 209614,
+      "sha256": "e1eb7731c90d0c9be3a69df7fd67aedeb089defccc5f2a9d83ee4d91d88182f0"
+    },
+    {
+      "path": "report/game_curved_evaluation.png",
+      "bytes": 85698,
+      "sha256": "db279a73d250c7612e9d74accc066e893700c9b53199475771a883dbae2817fc"
+    },
+    {
+      "path": "report/game_curved_model.json",
+      "bytes": 468,
+      "sha256": "6e089f279cc9119edcd6a1f10c1150c42246dff327f80f5fd5c726d33ea58dc9"
+    },
+    {
+      "path": "report/game_curved_test_shots.json",
+      "bytes": 541785,
+      "sha256": "01c895fd41fe3a9c3c68ae9bd2723250468f0d2ae5f1137aa1d0ef7e8b737585"
+    },
+    {
+      "path": "report/game_curved_train_shots.json",
+      "bytes": 1421800,
+      "sha256": "1ea9cb209200bc1ed346423259070be457ea6ada2a319b641fc2f717258ecfbe"
+    },
+    {
+      "path": "report/game_curved_training.json",
+      "bytes": 1016,
+      "sha256": "4d18516c0ae4f4b27977b23850a5fdeeb4416e255e68091cadf50f3a7761edc7"
+    },
+    {
+      "path": "report/game_curved_validation_shots.json",
+      "bytes": 542057,
+      "sha256": "a822e4bc00cce2cfbafce02fcddab876083534686310c1b6a5a0b5e8a978b180"
+    },
+    {
+      "path": "report/game_demo_comparison.json",
+      "bytes": 8575,
+      "sha256": "e058ac6482465aee8f5b3f9bde0c6c56e936ff24972b4c8bf4f58a6715127720"
+    },
+    {
+      "path": "report/game_demo_predictions.json",
+      "bytes": 39162,
+      "sha256": "63acab9641d1369033ca09fa5fc7a176eb1d5bdda282cf4a3a110b5def39d489"
+    },
+    {
+      "path": "report/game_demo_replay.json",
+      "bytes": 158002,
+      "sha256": "eedd405d4757877aaf37713251f3568983993902318698531463a965cb60e752"
+    },
+    {
+      "path": "report/game_evaluation.json",
+      "bytes": 4418950,
+      "sha256": "d920326db77f8bfd5e71e0c01ca3e29a3c3abc9e2dd33c513cf0077e154c3545"
+    },
+    {
+      "path": "report/game_evaluation.png",
+      "bytes": 104170,
+      "sha256": "35720cee4108eb6c8d1c4d44479972e2fe42aeb5863b0a558223ea449dc28f58"
+    },
+    {
+      "path": "report/game_gui_preview.png",
+      "bytes": 32032,
+      "sha256": "76b90b5dc0925180ee77bd17415ebb714223c2531281e565fe8685b0cba819d7"
+    },
+    {
+      "path": "report/game_gui_replay.json",
+      "bytes": 160398,
+      "sha256": "a814b923e1ffa4a88c48412ea2c63ae959b1ead8396a47a75ccb09256ea65947"
+    },
+    {
+      "path": "report/game_gui_results.json",
+      "bytes": 1302,
+      "sha256": "b0681b9e245a3520cf99040c53e818df18024317b7e0e329f3b69c0e774022af"
+    },
+    {
+      "path": "report/game_house_preview.png",
+      "bytes": 61547,
+      "sha256": "f05fc7f428c81a5a3325b86748d11ae8b4c2b002ece9fc2744cc50bb736ebf7b"
+    },
+    {
+      "path": "report/game_layout_before.json",
+      "bytes": 497,
+      "sha256": "c38429fd6f01feb5b498d53e8d1eb64efb9b33f67e94d51eb48124ad901587a9"
+    },
+    {
+      "path": "report/game_layout_validation.json",
+      "bytes": 10645,
+      "sha256": "1383d37071130c95d08d8608ea53c3f940917c2c707eb7bbde34687d5043c6b5"
+    },
+    {
+      "path": "report/game_method_comparison.json",
+      "bytes": 1188718,
+      "sha256": "d9c3aab380663b9d80f56d524b2ac64d5004607705a117fb22748465b86dd23e"
+    },
+    {
+      "path": "report/game_method_comparison.png",
+      "bytes": 79024,
+      "sha256": "cd528bc574e899b89d347b56a8608d8b33986cdafe6fa85aea039a19dcf76954"
+    },
+    {
+      "path": "report/game_player_preview.png",
+      "bytes": 59305,
+      "sha256": "861980585225acbff7f0d8900edb8ce4373cba1126e896362a34ca3335356c25"
+    },
+    {
+      "path": "report/game_playtest_evaluation.json",
+      "bytes": 6665,
+      "sha256": "ecd437812d45ae8c12e4037c54879f9fb5b2a347f1046e6fabe3e2f9840e5758"
+    },
+    {
+      "path": "report/game_playtest_evaluation.png",
+      "bytes": 49457,
+      "sha256": "2b9665d06b4c08db8153c46b1ff734afad0ea4ded55fcb94a4d6947b6664f57d"
+    },
+    {
+      "path": "report/game_playtest_setup_validation.json",
+      "bytes": 1626,
+      "sha256": "03b77d1f7cb220945b19b108d0958649f1fff3a9e16fb20db93e37c5ce6004ab"
+    },
+    {
+      "path": "report/game_prediction_example.png",
+      "bytes": 97460,
+      "sha256": "da55d66b27e39709c4b99995f5f31cca46661e4c627bca4d38bd7bd4361befff"
+    },
+    {
+      "path": "report/game_prediction_failure.png",
+      "bytes": 99355,
+      "sha256": "02652102a2e5f81ac6786ab43a2e349db0a1a908faf0da075ded62c63707fcbe"
+    },
+    {
+      "path": "report/game_replay_validation.json",
+      "bytes": 300,
+      "sha256": "6e3877b3a110c81d69ace6208c90c80ca824294be4454a75e72c8c3afa3c2025"
+    },
+    {
+      "path": "report/game_report_draft.md",
+      "bytes": 8686,
+      "sha256": "7ff64b0f432a82fe0b8ce0f3415e827bbd6766a5504fc97073e211cde357a8d3"
+    },
+    {
+      "path": "report/game_report_draft.pdf",
+      "bytes": 1086024,
+      "sha256": "9efea5259775e3b6eb84deece917e4c1bb639013915658811906e204fbdf52d9"
+    },
+    {
+      "path": "report/game_report_page_1.png",
+      "bytes": 331578,
+      "sha256": "661c4645e5a441a45919747011ef51d252c6fe3dd1b1dd1872adcb7c8ce90729"
+    },
+    {
+      "path": "report/game_report_page_2.png",
+      "bytes": 388084,
+      "sha256": "157ed4f1d3ac9cb1eef0957803f14c2b74cd19a02846d4fdb543595c3d34db87"
+    },
+    {
+      "path": "report/game_report_page_3.png",
+      "bytes": 356694,
+      "sha256": "ebd1c57a93362aeeb415c5963652d48051bb4cf3bac3322b3f10a8f00a17ae1b"
+    },
+    {
+      "path": "report/game_report_page_4.png",
+      "bytes": 403931,
+      "sha256": "5e06db58c413de99e63a43a9b5ae11132d257fb98802f71ab81c1a5e5d362384"
+    },
+    {
+      "path": "report/game_report_page_5.png",
+      "bytes": 392798,
+      "sha256": "27b86716110cad0b671864ffa1d5f676137b643bc747265feb0e6669ffdab300"
+    },
+    {
+      "path": "report/game_scene_preview.png",
+      "bytes": 41067,
+      "sha256": "1b1ee4def0a67c8120ad55b5227f2127dba88a6a1e4baf45f7292d1b9bb0770a"
+    },
+    {
+      "path": "report/game_straight_evaluation.csv",
+      "bytes": 45020,
+      "sha256": "dec6c21883efecbc2099077ddf72feb7e58830f89ffcd353b46b99bcedded763"
+    },
+    {
+      "path": "report/game_straight_evaluation.json",
+      "bytes": 432111,
+      "sha256": "3008f49a2f30542f79979c0245b77a4f684be121d2d441988af019d5dc5fe45f"
+    },
+    {
+      "path": "report/game_straight_evaluation.png",
+      "bytes": 131272,
+      "sha256": "f6f8071579535cc1a7a98a94cccdf3930e901802a9965c6fab72e5121100b0aa"
+    },
+    {
+      "path": "report/game_straight_model.json",
+      "bytes": 348,
+      "sha256": "0b5af5798e3e9884299be534b80fc4ba2b686a53de9e9606c7eb20e00e28d519"
+    },
+    {
+      "path": "report/game_straight_training.json",
+      "bytes": 427898,
+      "sha256": "46ea8a988b73e9708f12869549ccfaeb75c7f945a452380a3438503187249d70"
+    },
+    {
+      "path": "report/game_video_contact_sheet.png",
+      "bytes": 504078,
+      "sha256": "b818aa0fad7eb1b18f7c0f8c63c26f5b5fe93d75724ccd753e1ce9ef515dca13"
+    },
+    {
+      "path": "report/game_video_metadata.json",
+      "bytes": 2701,
+      "sha256": "096209a4d898985036bf1d5b429696ebd6c3936eb38bbb50a4081d028bcc2099"
+    },
+    {
+      "path": "report/game_video_preview.png",
+      "bytes": 117894,
+      "sha256": "fdf88e968d7a93d42b382d715ae12b507770777a3afe3084c121ad4946fdd233"
+    },
+    {
+      "path": "report/game_video_validation.json",
+      "bytes": 227,
+      "sha256": "9930d1d105e24015454461476355320296442829f4903a79c55449a14520134d"
+    },
+    {
+      "path": "report/model.json",
+      "bytes": 381,
+      "sha256": "944143d6df46c98462a0d49ddb4c03cfef715ec9411f37dbce46f26ef53de990"
+    },
+    {
+      "path": "report/poc_3d_results.json",
+      "bytes": 18754,
+      "sha256": "6bef569a8d407d233c803224129c01b99660328f1670b1f1f1004315ec21d7a0"
+    },
+    {
+      "path": "report/poc_contact_comparison.json",
+      "bytes": 42476,
+      "sha256": "7a4f7191d94bc0ee6219c4903d689680d2f469e313190839c9b64809ded5b53e"
+    },
+    {
+      "path": "report/poc_contact_comparison.png",
+      "bytes": 50295,
+      "sha256": "b6ed5f26fb04bbda03333b48bff36c8601d4e3de69e3b000eb80fcf2709eefbd"
+    },
+    {
+      "path": "report/poc_gui_preview.png",
+      "bytes": 26636,
+      "sha256": "3175a4537b8c2afdbf80367f5e5da6610b0463a878283d1535fabefa4d3701b2"
+    },
+    {
+      "path": "report/poc_gui_results.json",
+      "bytes": 368,
+      "sha256": "b020a0e08d15fa35e4e53e7e9e9630067cf474cf72f98b4aec5fad5967f1d1d0"
+    },
+    {
+      "path": "report/poc_preview.png",
+      "bytes": 41746,
+      "sha256": "1a55cba1db1d6c01510707a482e6897bb48dec7b9702d5e9a1fcada82d7803a9"
+    },
+    {
+      "path": "report/poc_results.json",
+      "bytes": 18534,
+      "sha256": "9ce71e2b97f6743e5658ac351b5e26290e59be7db65829dd19fd5f99075a435e"
+    },
+    {
+      "path": "report/poc_video_metadata.json",
+      "bytes": 193,
+      "sha256": "ae121960c09a6428a3c1319b016227f55a7693e645357cff275cad9889a7c204"
+    },
+    {
+      "path": "report/report_draft.md",
+      "bytes": 3171,
+      "sha256": "bfa6854b8ff330d6c07cbac69e64182f57d5dbe7afd19f1325030e50cc6d1772"
+    },
+    {
+      "path": "report/report_draft.pdf",
+      "bytes": 422625,
+      "sha256": "51cd263f3d5c8f20fccd2c6d3556571396192dae329b947046244126b6cadafb"
+    },
+    {
+      "path": "report/training.csv",
+      "bytes": 15574,
+      "sha256": "16de310429854f0a14e34b52089940bd95871bffaafed47756599d0c50eaca92"
+    },
+    {
+      "path": "report/video_metadata.json",
+      "bytes": 747,
+      "sha256": "2d3fc39e1ffb0b58dc5da3d80b8a6205faff1ac73b6588fc705e84b99c1679c9"
+    },
+    {
+      "path": "video/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/edit_video_text.py",
+      "bytes": 18574,
+      "sha256": "e3ed437ca18ee21236eabd4b8e09c0eface3220d33d9781e3cac6687c274702c"
+    }
+  ]
+}

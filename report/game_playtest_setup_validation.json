@@ -1,0 +1,29 @@
+{
+  "unit_tests_passed": 21,
+  "automated_games_completed": 6,
+  "automated_ratings_completed": 6,
+  "automated_source": "automated_gui_check",
+  "automated_human_evidence": false,
+  "ui_errors": [],
+  "prediction_condition_failures": [],
+  "feedback_resume_visibility_checked": true,
+  "automated_run_code_sha256": {
+    "game.py": "8b0d9ee25de3f79b7764800cc9a60c0df9fa39733b199ccefe734eb7bcb54205",
+    "physics.py": "6d10107660b49a378b577d8908881908434c40676aeef222f92e9e468ad4570e",
+    "predictor.py": "c078d2231e70aec6dc2668b00ebb4a38bb23c163415f7802652f100098eec1a3",
+    "ui.py": "5d29a8262f9af038ba93c1b6e47b421589cb0ed38c72ede73b538032776bbd5a",
+    "playtest.py": "add98ad15202671b84d7d8d864b3625e00572c78155dea4ca05aa94e40439453",
+    "game_scene.xml": "abfbfd7916ab4ce1e42b42b6f7dc4b1a785b1b9902574de82523d73432b0be84"
+  },
+  "current_code_sha256": {
+    "game.py": "8b0d9ee25de3f79b7764800cc9a60c0df9fa39733b199ccefe734eb7bcb54205",
+    "physics.py": "6d10107660b49a378b577d8908881908434c40676aeef222f92e9e468ad4570e",
+    "predictor.py": "c078d2231e70aec6dc2668b00ebb4a38bb23c163415f7802652f100098eec1a3",
+    "ui.py": "5d29a8262f9af038ba93c1b6e47b421589cb0ed38c72ede73b538032776bbd5a",
+    "playtest.py": "9a0f59ac3966fee80c534406bbd64f96dcd25955ae4040995bb6ae02e98804c7",
+    "game_scene.xml": "abfbfd7916ab4ce1e42b42b6f7dc4b1a785b1b9902574de82523d73432b0be84"
+  },
+  "change_after_full_gui_check": "Feedback dialog is transient only when its parent is visible; verified separately using a hidden parent as on resume",
+  "human_results_pending": false,
+  "human_evaluation": "game_playtest_evaluation.json"
+}

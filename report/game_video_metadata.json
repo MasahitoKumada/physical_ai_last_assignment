@@ -1,0 +1,98 @@
+{
+  "path": "video/game_demo.mp4",
+  "duration_seconds": 176.2,
+  "fps": 25,
+  "frames": 4405,
+  "width": 1280,
+  "height": 720,
+  "motion_playback_speed": 1,
+  "description": "Annotated scripted input replay through the same GameSession used by the UI; cards and aim pauses are static",
+  "learned_ai": true,
+  "online_correction": true,
+  "demo_config": {
+    "seed": 20261101,
+    "initial_friction": 0.052,
+    "drift": -0.05,
+    "curl": 0.03
+  },
+  "final_score": 165,
+  "chapters": [
+    {
+      "title": "表紙：ロボット・カーリング",
+      "start_seconds": 0.0
+    },
+    {
+      "title": "制作の目的",
+      "start_seconds": 10.0
+    },
+    {
+      "title": "ゲームのルール",
+      "start_seconds": 20.0
+    },
+    {
+      "title": "1投目",
+      "start_seconds": 28.0
+    },
+    {
+      "title": "AIが学習した2つの式",
+      "start_seconds": 38.76
+    },
+    {
+      "title": "投球の段階ごとの予測の使い方",
+      "start_seconds": 56.76
+    },
+    {
+      "title": "2投目",
+      "start_seconds": 72.76
+    },
+    {
+      "title": "3投目",
+      "start_seconds": 84.68
+    },
+    {
+      "title": "3投終了：合計165点",
+      "start_seconds": 98.2
+    },
+    {
+      "title": "2投目：投球前の予測と結果",
+      "start_seconds": 104.2
+    },
+    {
+      "title": "学習に使っていない氷での衝突予測",
+      "start_seconds": 114.2
+    },
+    {
+      "title": "24ゲーム・72投の予測精度",
+      "start_seconds": 123.2
+    },
+    {
+      "title": "物理式と学習モデルの比較",
+      "start_seconds": 133.2
+    },
+    {
+      "title": "予測が外れた例",
+      "start_seconds": 147.2
+    },
+    {
+      "title": "今回できたことと今後の課題",
+      "start_seconds": 156.2
+    }
+  ],
+  "model_sha256": "6e089f279cc9119edcd6a1f10c1150c42246dff327f80f5fd5c726d33ea58dc9",
+  "submitted": false,
+  "text_edits": {
+    "source_video_sha256": "df10ecd23836875ed2ed2e9ac6d882a79a88e071d752243c64f232d01f1b05e1",
+    "revision": "cover_concept_equations_roles_v3",
+    "heading_before": "できたことと、残る限界",
+    "heading_after": "今回できたことと今後の課題",
+    "removed_final_slide": "人が狙い、ロボットが投げ、AIが氷を読む。",
+    "cover_account": "bonsai2026",
+    "learned_equations": [
+      "mu_hat = a0 + a1*d",
+      "kappa_hat = b0 + b1*c"
+    ],
+    "prediction_roles": "Stopping positions always use physics; ice uses the prior before the first throw and observation-based estimates afterwards",
+    "game_inputs_and_results_changed": false,
+    "reproduce": "python src/game.py video; python docs/edit_video_text.py"
+  }
+}

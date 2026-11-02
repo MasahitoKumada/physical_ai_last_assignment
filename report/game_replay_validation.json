@@ -1,0 +1,16 @@
+[
+  {
+    "record": "game_gui_replay.json",
+    "complete_shots": 3,
+    "final_score": 162,
+    "max_position_error_m": 0.0,
+    "passed": true
+  },
+  {
+    "record": "game_demo_replay.json",
+    "complete_shots": 3,
+    "final_score": 165,
+    "max_position_error_m": 0.0,
+    "passed": true
+  }
+]

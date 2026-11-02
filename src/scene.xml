@@ -1,0 +1,58 @@
+<mujoco model="cartesian_curling">
+  <option timestep="0.002" integrator="implicitfast" cone="elliptic"/>
+  <visual>
+    <global offwidth="1280" offheight="576"/>
+    <headlight ambient=".5 .5 .5" diffuse=".6 .6 .6"/>
+    <rgba haze=".08 .12 .20 1"/>
+  </visual>
+  <asset>
+    <texture name="sky" type="skybox" builtin="gradient" rgb1=".10 .16 .25" rgb2=".03 .05 .09" width="128" height="128"/>
+  </asset>
+  <default>
+    <default class="visual">
+      <geom contype="0" conaffinity="0" mass="0"/>
+    </default>
+  </default>
+  <worldbody>
+    <light pos="1 -1 3" dir="0 0 -1" diffuse=".8 .8 .8"/>
+    <light pos="0 2 2" dir=".2 -1 -1" diffuse=".4 .4 .4"/>
+    <geom name="floor" type="plane" size="5 1 .1" rgba="0 0 0 0"/>
+    <geom class="visual" type="box" pos="1.55 0 -.035" size="1.85 .48 .035" rgba=".82 .91 .96 1"/>
+    <geom class="visual" type="box" pos="1.55 -.49 -.02" size="1.85 .015 .035" rgba=".21 .36 .53 1"/>
+    <geom class="visual" type="box" pos="1.55 .49 -.02" size="1.85 .015 .035" rgba=".21 .36 .53 1"/>
+    <site type="cylinder" pos="1.2 0 .001" size=".22 .0004" rgba=".12 .35 .72 1"/>
+    <site type="cylinder" pos="1.2 0 .002" size=".15 .0004" rgba=".98 .98 .98 1"/>
+    <site type="cylinder" pos="1.2 0 .003" size=".075 .0004" rgba=".85 .15 .20 1"/>
+    <geom class="visual" type="box" pos=".25 0 .001" size=".002 .43 .001" rgba=".32 .48 .60 1"/>
+    <!-- The gantry frame is visual; only the pad contacts the puck. -->
+    <geom class="visual" type="box" pos=".30 -.29 .49" size=".36 .025 .025" rgba=".28 .40 .55 1"/>
+    <geom class="visual" type="box" pos=".30 .29 .49" size=".36 .025 .025" rgba=".28 .40 .55 1"/>
+    <geom class="visual" type="box" pos="-.03 -.29 .245" size=".025 .025 .245" rgba=".36 .49 .63 1"/>
+    <geom class="visual" type="box" pos="-.03 .29 .245" size=".025 .025 .245" rgba=".36 .49 .63 1"/>
+    <geom class="visual" type="box" pos=".63 -.29 .245" size=".025 .025 .245" rgba=".36 .49 .63 1"/>
+    <geom class="visual" type="box" pos=".63 .29 .245" size=".025 .025 .245" rgba=".36 .49 .63 1"/>
+    <body name="carriage" pos=".1 0 .49">
+      <joint name="push_x" type="slide" axis="1 0 0" damping="1"/>
+      <geom type="box" size=".045 .32 .03" mass=".2" contype="0" conaffinity="0" rgba=".10 .47 .75 1"/>
+      <body name="pusher" pos="0 0 -.455">
+        <joint name="lift_z" type="slide" axis="0 0 1" damping="1"/>
+        <geom name="pad" type="box" size=".04 .09 .025" mass="1" rgba=".10 .47 .75 1"/>
+        <geom class="visual" type="cylinder" pos="0 0 .22" size=".012 .22" rgba=".70 .80 .87 1"/>
+      </body>
+    </body>
+    <body name="puck" pos=".25 0 .026">
+      <freejoint name="puck_free"/>
+      <geom name="disk" type="cylinder" size=".07 .025" mass=".2" rgba="1 .48 .08 1"/>
+      <geom class="visual" type="cylinder" pos="0 0 .026" size=".024 .003" rgba="1 .80 .30 1"/>
+    </body>
+  </worldbody>
+  <contact>
+    <!-- Set the floor-puck pair explicitly so other geom friction defaults cannot override it. -->
+    <pair name="sliding" geom1="floor" geom2="disk" condim="3" friction=".06 .06 .001 .0001 .0001"/>
+    <pair geom1="pad" geom2="disk" condim="3" friction="0 0 0 0 0"/>
+  </contact>
+  <actuator>
+    <position name="drive_x" joint="push_x" kp="2000" kv="90" forcerange="-100 100"/>
+    <position name="drive_z" joint="lift_z" kp="5000" kv="100" forcerange="-100 100"/>
+  </actuator>
+</mujoco>

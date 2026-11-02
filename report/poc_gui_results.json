@@ -1,0 +1,15 @@
+{
+  "window_created": true,
+  "frames_rendered": 187,
+  "wall_seconds": 6.030722834053449,
+  "average_frames_per_second": 31.007891615259506,
+  "simulation_seconds": 4.263999999999752,
+  "forecasts_completed": 2,
+  "forecast_response_seconds": [
+    0.4553908749949187,
+    0.21127575007267296
+  ],
+  "errors": [],
+  "phase_at_close": "READY",
+  "learned_ai": false
+}

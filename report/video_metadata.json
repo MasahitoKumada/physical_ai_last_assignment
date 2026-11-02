@@ -1,0 +1,30 @@
+{
+  "path": "video/curling_demo.mp4",
+  "fps": 25,
+  "frames": 2300,
+  "duration_seconds": 92.0,
+  "playback_speed": 1,
+  "demo_conditions": [
+    {
+      "label": "滑りやすい床",
+      "friction": 0.033,
+      "fixed_error_m": 0.7253872683280107,
+      "probe_x": 1.1228175507534726,
+      "adaptive_error_m": 0.008085843057732366
+    },
+    {
+      "label": "中間の床",
+      "friction": 0.078,
+      "fixed_error_m": 0.20128033342395119,
+      "probe_x": 0.725141411631381,
+      "adaptive_error_m": 0.033345537712783355
+    },
+    {
+      "label": "滑りにくい床",
+      "friction": 0.123,
+      "fixed_error_m": 0.4495727242492744,
+      "probe_x": 0.6202503730413699,
+      "adaptive_error_m": 0.07876002404288733
+    }
+  ]
+}
